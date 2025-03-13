@@ -1,0 +1,181 @@
+@import "../../../data/styles.css";
+
+.floating-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1000;
+	padding: 15px;
+	border: none;
+	border-radius: 50%;
+	background-color: #000000;
+	color: white;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	transition: background-color 0.3s;
+	width: 46px;
+	height: 46px;
+}
+
+.floating-btn:hover {
+	background-color: var(--quinary-color);
+}
+
+body.dark-mode {
+	background-color: var(--senary-color);
+	color: var(--white-color);
+}
+
+body.dark-mode .page-content {
+	background-color: var(--septenary-color);
+}
+
+body.dark-mode .page-content:before,
+body.dark-mode .page-content:after {
+	background-color: var(--senary-color);
+	border: 1px solid var(--octonary-color);
+}
+
+body.dark-mode .title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .subtitle {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .homepage-social-icon {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .homepage-social-icon:hover {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .project-title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .project-description {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .project-link {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .project:hover {
+	background: var(--primary-color);
+}
+
+body.dark-mode .homepage-article {
+	background: var(--septenary-color);
+}
+
+body.dark-mode .homepage-article-title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .homepage-article-description {
+	color: var(--tertiary-color);
+}
+
+/*  */
+body.dark-mode .article-title {
+	color: var(--white-color);
+}
+
+body.dark-mode .article-description {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .article-right-side:hover {
+	background: var(--primary-color);
+}
+
+body.dark-mode .card {
+	outline: 2px solid var(--octonary-color);
+}
+
+body.dark-mode .card-icon {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .card-title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .work-title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .work-subtitle {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .work-duration {
+	color: var(--tertiary-color);
+}
+
+
+body.dark-mode .work-image {
+	outline: 6px solid var(--octonary-color);
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+body.dark-mode .footer-nav-link-list a {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .footer-nav-link-list a:hover {
+	color: var(--link-color);
+}
+
+body.dark-mode .social-icon {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .social-text {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .social-text:hover {
+	color: var(--link-color);
+	text-decoration: underline;
+}
+
+body.dark-mode .contact-subtitle a {
+	color: var(--link-color);
+}
+
+body.dark-mode .contact-subtitle a:hover {
+	color: var(--white-color);
+}
+
+body.dark-mode .read-article-body {
+	color: var(--tertiary-color);
+}
+
+body.dark-mode .read-article-body a {
+	color: var(--link-color);
+}
+
+body.dark-mode .read-article-body a:hover {
+	color: var(--white-color);
+}
+body.dark-mode .read-article-back-button {
+	background-color: var(--white-color);
+}
+
+body.dark-mode .nav-hamburger {
+	color: var(--primary-color);
+}
+
+body.dark-mode .notfound-title {
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .not-found-message {
+	color: var(--tertiary-color);
+}

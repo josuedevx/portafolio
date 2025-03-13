@@ -1,0 +1,21 @@
+:root {
+	/* ------- colors ------- */
+	--white-color: #ffffff;
+	--primary-color: #27272a;
+	--secondary-color: #65656d;
+	--tertiary-color: #acacb4;
+	--quaternary-color: #e4e4e7;
+	--link-color: #14b8a6;
+	--quinary-color: #707070;
+	--senary-color: #1a1a1a;
+	--septenary-color: #292b2b;
+	--octonary-color: #3d4143;
+
+	/* ---------------------- */
+
+	/* ------- fonts ------- */
+	--primary-font: "Heebo", sans-serif;
+	--secondary-font: "Roboto", sans-serif;
+	--tertiary-font: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	/* --------------------- */
+}
