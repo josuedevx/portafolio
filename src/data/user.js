@@ -1,5 +1,5 @@
-const formData = "https://forms.gle/DmK8mgJ78cuAJZux5";
-const text = "Contacto";
+const formData = "/contact";
+const text = "Detalles";
 const INFO = {
 	main: {
 		title: "Portafolio",
@@ -16,6 +16,7 @@ const INFO = {
 		facebook:
 			"https://www.facebook.com/josue.alvarezrodriguez.372?mibextid=ZbWKwL",
 		website: "https://josuedevx.github.io/webshop/",
+		form: "https://forms.gle/DmK8mgJ78cuAJZux5",
 	},
 
 	homepage: {

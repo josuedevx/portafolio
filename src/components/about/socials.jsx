@@ -6,10 +6,12 @@ import {
 	faLinkedin,
 	faInstagram,
 	faFacebook,
+	faWpforms
 } from "@fortawesome/free-brands-svg-icons";
 import { faShopify } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
+import formData from "../../data/user";
 
 import "./styles/socials.css";
 
@@ -72,6 +74,22 @@ const Socials = () => {
 						/>
 					</div>
 					<div className="social-text">Sígueme en Facebook</div>
+				</a>
+			</div>
+
+			<div className="social">
+				<a
+					href={INFO.socials.form}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faWpforms}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Envíame un Mensaje</div>
 				</a>
 			</div>
 
