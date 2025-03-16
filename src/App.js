@@ -9,7 +9,6 @@ import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Curriculum from "./pages/curriculum";
 import Notfound from "./pages/404";
-import DarkMode from "./components/dark/dark";
 import { TRACKING_ID } from "./data/tracking";
 import "./app.css";
 
@@ -30,7 +29,6 @@ function App() {
 				<Route path="/article/:slug" element={<ReadArticle />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/cv" element={<Curriculum />} />
-				<Route path="/m" element={<DarkMode />} />
 				<Route path="*" element={<Notfound />} />
 			</Routes>
 		</div>

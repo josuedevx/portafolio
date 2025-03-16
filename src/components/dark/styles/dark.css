@@ -179,3 +179,20 @@ body.dark-mode .notfound-title {
 body.dark-mode .not-found-message {
 	color: var(--tertiary-color);
 }
+
+body.dark-mode .skills-container {
+	background: var(--primary-color);
+}
+
+body.dark-mode .skills-title{
+	color: var(--quaternary-color);
+}
+body.dark-mode .skills-category h3{
+	color: var(--quaternary-color);
+}
+
+body.dark-mode .skill-item {
+	background: var(--septenary-color);
+	box-shadow: 0 4px 8px rgba(128, 128, 128, 0.1);
+	/* background: none; */
+}

@@ -6,12 +6,11 @@ import {
 	faLinkedin,
 	faInstagram,
 	faFacebook,
-	faWpforms
+	faWpforms,
 } from "@fortawesome/free-brands-svg-icons";
 import { faShopify } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
-import formData from "../../data/user";
 
 import "./styles/socials.css";
 
@@ -78,11 +77,7 @@ const Socials = () => {
 			</div>
 
 			<div className="social">
-				<a
-					href={INFO.socials.form}
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href={INFO.socials.form} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
 							icon={faWpforms}
@@ -116,7 +111,12 @@ const Socials = () => {
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
-						<div className="social-text" title="Envíame un correo electrónico">{INFO.main.email}</div>
+						<div
+							className="social-text"
+							title="Envíame un correo electrónico"
+						>
+							{INFO.main.email}
+						</div>
 					</a>
 				</div>
 			</div>

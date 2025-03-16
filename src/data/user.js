@@ -1,5 +1,5 @@
 const formData = "/contact";
-const text = "Detalles";
+const text = "Contacto";
 const INFO = {
 	main: {
 		title: "Portafolio",
@@ -90,6 +90,11 @@ const INFO = {
 			link: formData,
 		},
 	],
+
+	disclaimer: {
+		description:
+			"Los proyectos mencionados en este portafolio son descripciones generales de mi experiencia y contribuciones. No comparto código fuente, documentación interna ni información confidencial de ninguna empresa. Toda la información presentada es de carácter público y se limita a destacar mis habilidades y el trabajo realizado sin divulgar detalles sensibles.",
+	},
 };
 
 export default INFO;

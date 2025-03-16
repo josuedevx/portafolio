@@ -39,17 +39,39 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Proyectos destacados en los que he dejado mi huella 👣
+							Proyectos destacados en los que he dejado mi huella
+							👣
 						</div>
 
 						<div className="subtitle projects-subtitle">
 							He trabajado en diversos proyectos y estoy
 							satisfecho de los progresos y resultados obtenidos.
-							<strong> La mayoria de estos proyectos son privados
-							por políticas empresariales </strong> y otros <strong> son propios que son disponibles </strong> para que
-							otros los exploren y contribuyan a ellos. Colaborar con otros
-							es una gran manera de aprender y crecer, y siempre
-							estoy abierto a nuevas ideas y comentarios.
+							<strong>
+								{" "}
+								La mayoria de estos proyectos son privados por
+								políticas empresariales{" "}
+							</strong>{" "}
+							y otros{" "}
+							<strong>
+								{" "}
+								son propios que son disponibles{" "}
+							</strong>{" "}
+							para que otros los exploren y contribuyan a ellos.
+							Colaborar con otros es una gran manera de aprender y
+							crecer, y siempre estoy abierto a nuevas ideas y
+							comentarios.
+							<br /> <br />
+							<strong>
+								⚠️ Nota: Los proyectos mencionados en este
+								portafolio son descripciones generales de mi
+								experiencia y contribuciones. No comparto código
+								fuente, documentación interna ni información
+								confidencial de ninguna empresa. Toda la
+								información presentada es de carácter público y
+								se limita a destacar mis habilidades y el
+								trabajo realizado sin divulgar detalles
+								sensibles.
+							</strong>
 						</div>
 
 						<div className="projects-list">

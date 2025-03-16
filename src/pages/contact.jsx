@@ -5,6 +5,7 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
+import Skills from "../components/about/skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
@@ -40,7 +41,8 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Pongámonos en contacto: ¡Hagamos realidad las ideas! 📞
+							Pongámonos en contacto: ¡Hagamos realidad las ideas!
+							📞
 						</div>
 
 						<div className="subtitle contact-subtitle">
@@ -71,6 +73,12 @@ const Contact = () => {
 							<br />
 							¡Gracias nuevamente por tu interés! Espero poder
 							conectar contigo pronto. 👋🏽😊
+						</div>
+					</div>
+
+					<div className="skills-container">
+						<div className="contact-skills">
+							<Skills />
 						</div>
 					</div>
 

@@ -7,6 +7,7 @@ import {
 	faInstagram,
 	faLinkedin,
 	faFacebook,
+	faWpforms,
 } from "@fortawesome/free-brands-svg-icons";
 import { useTranslation } from "react-i18next";
 import Logo from "../components/common/logo";
@@ -188,6 +189,21 @@ const Homepage = () => {
 								>
 									<FontAwesomeIcon
 										icon={faCartShopping}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</Tippy>
+							<Tippy
+								content="Envíame un Mensaje"
+								placement="bottom"
+							>
+								<a
+									href={INFO.socials.form}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faWpforms}
 										className="homepage-social-icon"
 									/>
 								</a>
