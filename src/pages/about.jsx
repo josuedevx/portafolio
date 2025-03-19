@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
+import Languaje from "../components/common/languaje";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import imagemINE from "../assets/yo3.jpg";
@@ -13,6 +15,8 @@ import imagemINE from "../assets/yo3.jpg";
 import "./styles/about.css";
 
 const About = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -32,6 +36,7 @@ const About = () => {
 
 			<div className="page-content">
 				<NavBar active="about" />
+				{/* <Languaje /> */}
 				<DarkMode />
 				<div className="content-wrapper">
 					<div className="about-logo-container">
@@ -45,10 +50,10 @@ const About = () => {
 							<div className="about-right-side">
 								<div className="title about-title">
 									{INFO.about.title}
+									{/* {t("aboutTitle")} */}
 								</div>
 
 								<div className="subtitle about-subtitle">
-									{/* {INFO.about.description} */}
 									<strong>
 										Soy un profesional altamente adaptable,
 									</strong>{" "}

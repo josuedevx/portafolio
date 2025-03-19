@@ -22,6 +22,24 @@
 	background-color: var(--quinary-color);
 }
 
+body.dark-mode .floating-btn{
+	background-color: var(--quaternary-color);
+	color: black;
+	box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px,
+		rgba(134, 134, 134, 0.22) 0px 15px 12px;
+}
+
+body.dark-mode .floating-btn-languaje {
+	background-color: var(--quaternary-color);
+	color: black;
+	box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px,
+		rgba(134, 134, 134, 0.22) 0px 15px 12px;
+}
+
+body.dark-mode .nav-background { 
+	background-color: var(--quaternary-color);
+}
+
 body.dark-mode {
 	background-color: var(--senary-color);
 	color: var(--white-color);

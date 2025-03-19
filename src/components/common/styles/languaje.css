@@ -18,3 +18,19 @@
 	height: 46px;
     
 }
+.img-languaje {
+	
+
+	position: fixed;
+	bottom: 79px;
+	right: 19px;
+	z-index: 1000;
+	padding: 15px;
+	border: none;
+	border-radius: 50%;
+	width: 18px;
+	height: 18px;
+	
+    
+}
+

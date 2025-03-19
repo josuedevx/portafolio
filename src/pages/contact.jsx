@@ -1,10 +1,13 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
+
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
+import Languaje from "../components/common/languaje";
 import Skills from "../components/about/skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -12,6 +15,8 @@ import SEO from "../data/seo";
 import "./styles/contact.css";
 
 const Contact = () => {
+	const { t } = useTranslation();
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -31,6 +36,7 @@ const Contact = () => {
 
 			<div className="page-content">
 				<NavBar active="contact" />
+				{/* <Languaje /> */}
 				<DarkMode />
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
@@ -41,8 +47,8 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Pongámonos en contacto: ¡Hagamos realidad las ideas!
-							📞
+							{INFO.contact.title}
+							{/* {t("contactTitle")} */}
 						</div>
 
 						<div className="subtitle contact-subtitle">

@@ -1,6 +1,7 @@
 const formData = "/contact";
 const text = "Contacto";
 const INFO = {
+	
 	main: {
 		title: "Portafolio",
 		name: "Josue Alvarez Rodriguez",
@@ -27,14 +28,17 @@ const INFO = {
 
 	about: {
 		title: "Orden y colaboración son mi superpoder 🤝🏻",
-		description:
-			"Muy adaptable a todo tipo de entornos y clara orientación a objetivos. Con conocimientos en diferentes lenguajes de programación como: TypeScript, JavaScript, PHP, entre otros; Interés en el área de desarrollo de software y/o Análisis de sistemas.",
 	},
 
 	articles: {
 		title: "Innovador incansable y mentor de los creadores del mañana 🌟",
 		description:
 			"Recopilación cronológica de algunas de mis reflexiones sobre programación, liderazgo, diseño de productos, etc.",
+	},
+
+	contact: {
+		title: "Pongámonos en contacto: ¡Hagamos realidad las ideas! 📞",
+
 	},
 
 	projects: [

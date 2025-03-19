@@ -10,6 +10,7 @@ import {
 	faWpforms,
 } from "@fortawesome/free-brands-svg-icons";
 import { useTranslation } from "react-i18next";
+
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
