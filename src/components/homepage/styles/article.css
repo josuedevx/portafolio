@@ -5,6 +5,9 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .homepage-article:hover {
@@ -15,6 +18,9 @@
 
 .homepage-article-content {
 	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
 }
 
 .homepage-article-date {
@@ -43,6 +49,7 @@
 	opacity: 1;
 	padding-top: 20px;
 	font-size: 15px;
+	margin-top: auto;
 	font-weight: 700;
 }
 

@@ -87,6 +87,12 @@ body.dark-mode .project:hover {
 	background: var(--primary-color);
 }
 
+/*  */
+body.dark-mode .homepage-article:hover {
+	background: var(--primary-color);
+}
+/*  */
+
 body.dark-mode .homepage-article {
 	background: var(--septenary-color);
 }
@@ -99,7 +105,6 @@ body.dark-mode .homepage-article-description {
 	color: var(--tertiary-color);
 }
 
-/*  */
 body.dark-mode .article-title {
 	color: var(--white-color);
 }
@@ -170,7 +175,8 @@ body.dark-mode .contact-subtitle a:hover {
 	color: var(--white-color);
 }
 
-body.dark-mode .read-article-body, .read-project-body {
+body.dark-mode .read-article-body,
+.read-project-body {
 	color: var(--tertiary-color) !important;
 }
 
@@ -220,4 +226,3 @@ body.dark-mode .tech-item {
 	box-shadow: 0 2px 4px rgba(128, 128, 128, 0.1);
 	/* background: none; */
 }
-

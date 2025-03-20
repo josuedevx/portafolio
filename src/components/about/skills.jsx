@@ -33,7 +33,7 @@ const Skills = () => {
 
 	return (
 		<div className="skills-container">
-			<h2 className="skills-title">Mis Habilidades</h2>
+			<h2 className="skills-title">Algunas de mis habilidades 🚀</h2>
 			{skills.map((category, index) => (
 				<div key={index} className="skills-category">
 					<h3>{category.category}</h3>

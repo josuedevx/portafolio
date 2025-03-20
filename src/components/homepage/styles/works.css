@@ -7,6 +7,7 @@
 .works {
 	mix-blend-mode: normal;
 	border-radius: 20px;
+	width: 80% !important;
 }
 
 .work {
@@ -52,7 +53,10 @@
 
 @media (max-width: 600px) {
 	.works {
-		margin-right: 11px;
+		margin-right: 12px;
 		margin-left: 10px;
+	}
+	.work-subtitle {
+		font-size: 10px;
 	}
 }

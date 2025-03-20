@@ -13,7 +13,8 @@
 	top: 4vh;
 }
 
-.contact-subtitle, .contact-title {
+.contact-subtitle,
+.contact-title {
 	width: 100% !important;
 	text-align: justify;
 }
@@ -29,18 +30,6 @@
 	margin-top: 120px;
 }
 
-
- .skills-container {
-	display: flex;
-	flex-direction: column;
-	margin-top: 25px;
-}
-
-/* .contact-skills {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}  */
 .socials-container {
 	display: flex;
 	flex-direction: column;

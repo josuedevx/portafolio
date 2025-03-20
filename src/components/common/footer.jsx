@@ -44,7 +44,7 @@ const Footer = (props) => {
 									: "Proyectos"}
 							</Link>
 						</li>
-						<li
+						{/* <li
 							className={
 								active === "articles"
 									? "footer-nav-link-item active"
@@ -56,7 +56,7 @@ const Footer = (props) => {
 									? "Artículo: " + read
 									: "Artículos"}
 							</Link>
-						</li>
+						</li> */}
 						<li
 							className={
 								active === "contact"

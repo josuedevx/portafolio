@@ -41,33 +41,6 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Gestión de Personal",
-			description:
-				"Desarrollé e implementé un portal integral para la gestión y comunicación del personal, mejorando la eficiencia en la administración de datos y la interacción entre usuarios. La plataforma permitió optimizar flujos de trabajo y centralizar la información clave del equipo.",
-			logo: "https://cdn-icons-png.flaticon.com/512/12105/12105243.png",
-			technologies: [
-				{
-					name: "Laravel 10",
-					logo: "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png",
-				},
-				{
-					name: "PHP 8",
-					logo: "https://cdn-icons-png.flaticon.com/512/919/919830.png",
-				},
-				{
-					name: "Vue.js",
-					logo: "https://static-00.iconduck.com/assets.00/vue-js-icon-2048x1766-btrgkrhi.png",
-				},
-				{
-					name: "MySQL",
-					logo: "https://cdn-icons-png.flaticon.com/512/919/919836.png",
-				},
-			],
-			linkText: text,
-			link: formData,
-		},
-
-		{
 			title: "Visor de Documentos en Línea",
 			description:
 				"Desarrollé un sistema de gestión de documentos PDF que optimiza el acceso y la seguridad de la información. Los usuarios pueden visualizar archivos según su rol, asegurando un control de permisos eficiente. La autenticación se gestiona con SAML como IdP para reforzar la seguridad, y la infraestructura.",
@@ -101,7 +74,6 @@ const INFO = {
 			linkText: text,
 			link: formData,
 		},
-
 		{
 			title: "Plataforma de Análisis de Datos",
 			description:
@@ -132,7 +104,32 @@ const INFO = {
 			linkText: text,
 			link: formData,
 		},
-
+		{
+			title: "Gestión de Personal",
+			description:
+				"Desarrollé e implementé un portal integral para la gestión y comunicación del personal, mejorando la eficiencia en la administración de datos y la interacción entre usuarios. La plataforma permitió optimizar flujos de trabajo y centralizar la información clave del equipo.",
+			logo: "https://cdn-icons-png.flaticon.com/512/12105/12105243.png",
+			technologies: [
+				{
+					name: "Laravel 10",
+					logo: "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png",
+				},
+				{
+					name: "PHP 8",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919830.png",
+				},
+				{
+					name: "Vue.js",
+					logo: "https://static-00.iconduck.com/assets.00/vue-js-icon-2048x1766-btrgkrhi.png",
+				},
+				{
+					name: "MySQL",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919836.png",
+				},
+			],
+			linkText: text,
+			link: formData,
+		},
 		{
 			title: "App de Control Financiero",
 			description:

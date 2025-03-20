@@ -82,12 +82,6 @@ const Contact = () => {
 						</div>
 					</div>
 
-					<div className="skills-container">
-						<div className="contact-skills">
-							<Skills />
-						</div>
-					</div>
-
 					<div className="socials-container">
 						<div className="contact-socials">
 							<Socials />

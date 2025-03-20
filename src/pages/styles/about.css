@@ -4,7 +4,6 @@
 	padding-top: 45px;
 }
 
-
 .about-logo {
 	display: flex;
 	position: fixed;
@@ -32,8 +31,6 @@
 
 .about-title {
 	width: 100% !important;
-	/* text-align: justify; */
-
 }
 
 .about-subtitle {
@@ -49,6 +46,11 @@
 
 .about-image-container {
 	width: 370px;
+}
+
+.homepage-works {
+	flex-basis: 600px;
+	padding-top: 30px;
 }
 
 .about-image-wrapper {
@@ -118,4 +120,5 @@
 	.about-image-container {
 		width: 80%;
 	}
+
 }

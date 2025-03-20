@@ -8,6 +8,7 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
+import Skills from "../components/about/skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import MyCv from "../assets/CV AARJ010123LM0.pdf";
@@ -70,7 +71,16 @@ const Cv = () => {
 							increíble! 🚀
 						</div>
 
-						<div className="download-container">
+					</div>
+
+					<div className="skills-container">
+						<div className="contact-skills">
+							<Skills />
+						</div>
+					</div>
+
+					
+					<div className="download-container">
 							<Tippy
 								content="Descargar Currículum"
 								placement="bottom"
@@ -87,13 +97,14 @@ const Cv = () => {
 								</button>
 							</Tippy>
 						</div>
-					</div>
 
 					<div className="socials-container">
 						<div className="cv-socials">
 							<Socials />
 						</div>
 					</div>
+
+					
 
 					<div className="page-footer">
 						<Footer active="cv" />

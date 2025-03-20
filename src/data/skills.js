@@ -91,7 +91,7 @@ const skills = [
 				logo: "https://cdn-icons-png.flaticon.com/512/919/919853.png",
 			},
 			{
-				name: "Git (BitBucket, GitLab, GitHub)",
+				name: "Git",
 				logo: "https://cdn-icons-png.flaticon.com/512/2111/2111425.png",
 			},
 		],

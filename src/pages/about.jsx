@@ -8,6 +8,7 @@ import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
 import Languaje from "../components/common/languaje";
+import Works from "../components/homepage/works";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import imagemINE from "../assets/yo3.jpg";
@@ -80,6 +81,9 @@ const About = () => {
 									nuevos retos y contribuir al éxito de
 									proyectos innovadores. 🚀
 								</div>
+								<div className="homepage-works">
+									<Works />
+								</div>
 							</div>
 
 							<div className="about-left-side">
@@ -98,12 +102,13 @@ const About = () => {
 								</div>
 							</div>
 						</div>
+
 						<div className="about-socials-mobile">
 							<Socials />
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer active="about"/>
+						<Footer active="about" />
 					</div>
 				</div>
 			</div>
