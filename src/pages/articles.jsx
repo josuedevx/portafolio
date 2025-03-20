@@ -68,7 +68,7 @@ const Articles = () => {
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer />
+						<Footer active="articles"/>
 					</div>
 				</div>
 			</div>

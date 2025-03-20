@@ -6,7 +6,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
-	const { active } = props;
+	const { active, read } = props;
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const handleMenu = () => setMenuOpen(!menuOpen);
@@ -19,7 +19,9 @@ const NavBar = (props) => {
 					<div className="nav-background" onClick={handleMenu}>
 						<div className="nav-header">
 							<div className="nav-hamburger" onClick={handleMenu}>
-								<FontAwesomeIcon icon={menuOpen ? faTimes : faBars}	/>
+								<FontAwesomeIcon
+									icon={menuOpen ? faTimes : faBars}
+								/>
 							</div>
 						</div>
 						<ul className={`nav-list ${menuOpen ? "open" : ""}`}>
@@ -51,7 +53,11 @@ const NavBar = (props) => {
 								}
 								onClick={closeMenu}
 							>
-								<Link to="/projects">Proyectos</Link>
+								<Link to="/projects">
+									{read >= 0 && active === "projects"
+										? "Proyecto: " + read
+										: "Proyectos"}
+								</Link>
 							</li>
 							<li
 								className={
@@ -61,7 +67,11 @@ const NavBar = (props) => {
 								}
 								onClick={closeMenu}
 							>
-								<Link to="/articles">Articulos</Link>
+								<Link to="/articles">
+									{read >= 0 && active === "articles"
+										? "Artículo: " + read
+										: "Artículos"}
+								</Link>
 							</li>
 							<li
 								className={

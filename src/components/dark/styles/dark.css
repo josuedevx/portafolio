@@ -22,7 +22,7 @@
 	background-color: var(--quinary-color);
 }
 
-body.dark-mode .floating-btn{
+body.dark-mode .floating-btn {
 	background-color: var(--quaternary-color);
 	color: black;
 	box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px,
@@ -36,7 +36,7 @@ body.dark-mode .floating-btn-languaje {
 		rgba(134, 134, 134, 0.22) 0px 15px 12px;
 }
 
-body.dark-mode .nav-background { 
+body.dark-mode .nav-background {
 	background-color: var(--quaternary-color);
 }
 
@@ -136,7 +136,6 @@ body.dark-mode .work-duration {
 	color: var(--tertiary-color);
 }
 
-
 body.dark-mode .work-image {
 	outline: 6px solid var(--octonary-color);
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
@@ -171,8 +170,8 @@ body.dark-mode .contact-subtitle a:hover {
 	color: var(--white-color);
 }
 
-body.dark-mode .read-article-body {
-	color: var(--tertiary-color);
+body.dark-mode .read-article-body, .read-project-body {
+	color: var(--tertiary-color) !important;
 }
 
 body.dark-mode .read-article-body a {
@@ -182,7 +181,8 @@ body.dark-mode .read-article-body a {
 body.dark-mode .read-article-body a:hover {
 	color: var(--white-color);
 }
-body.dark-mode .read-article-back-button {
+body.dark-mode .read-article-back-button,
+.read-project-back-button {
 	background-color: var(--white-color);
 }
 
@@ -202,10 +202,10 @@ body.dark-mode .skills-container {
 	background: var(--primary-color);
 }
 
-body.dark-mode .skills-title{
+body.dark-mode .skills-title {
 	color: var(--quaternary-color);
 }
-body.dark-mode .skills-category h3{
+body.dark-mode .skills-category h3 {
 	color: var(--quaternary-color);
 }
 
@@ -214,3 +214,10 @@ body.dark-mode .skill-item {
 	box-shadow: 0 4px 8px rgba(128, 128, 128, 0.1);
 	/* background: none; */
 }
+
+body.dark-mode .tech-item {
+	background: var(--primary-color);
+	box-shadow: 0 2px 4px rgba(128, 128, 128, 0.1);
+	/* background: none; */
+}
+

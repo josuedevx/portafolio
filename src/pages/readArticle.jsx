@@ -17,9 +17,9 @@ let ArticleStyle = styled.div``;
 const ReadArticle = () => {
 	const navigate = useNavigate();
 	let { slug } = useParams();
-
 	const article = myArticles[slug - 1];
 
+	
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, [article]);
@@ -37,7 +37,7 @@ const ReadArticle = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar />
+				<NavBar active="articles" read={slug} />
 				<DarkMode />
 				<div className="content-wrapper">
 					<div className="read-article-logo-container">
@@ -73,7 +73,7 @@ const ReadArticle = () => {
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer />
+						<Footer active="articles" read={slug}/>
 					</div>
 				</div>
 			</div>

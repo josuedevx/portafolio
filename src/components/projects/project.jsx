@@ -15,7 +15,7 @@ const Project = (props) => {
 		<React.Fragment>
 			<Tippy content={INFO.disclaimer.description}>
 				<div className="project">
-					<Link to={link} target="_blank">
+					<Link to={link}>
 						<div className="project-container">
 							<div className="project-logo">
 								<img src={logo} alt="logo" />

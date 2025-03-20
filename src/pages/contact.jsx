@@ -95,7 +95,7 @@ const Contact = () => {
 					</div>
 
 					<div className="page-footer">
-						<Footer />
+						<Footer active="contact" />
 					</div>
 				</div>
 			</div>

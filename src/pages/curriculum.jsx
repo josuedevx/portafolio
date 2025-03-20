@@ -96,7 +96,7 @@ const Cv = () => {
 					</div>
 
 					<div className="page-footer">
-						<Footer />
+						<Footer active="cv" />
 					</div>
 				</div>
 			</div>

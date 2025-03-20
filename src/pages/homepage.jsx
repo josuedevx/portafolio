@@ -254,7 +254,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="page-footer">
-							<Footer />
+							<Footer active="home"/>
 						</div>
 					</div>
 				</div>

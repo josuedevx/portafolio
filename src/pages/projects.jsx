@@ -79,7 +79,7 @@ const Projects = () => {
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer />
+						<Footer active="projects"/>
 					</div>
 				</div>
 			</div>

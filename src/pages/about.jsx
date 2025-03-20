@@ -103,7 +103,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer />
+						<Footer active="about"/>
 					</div>
 				</div>
 			</div>
