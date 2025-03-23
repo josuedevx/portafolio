@@ -19,7 +19,6 @@ const ReadArticle = () => {
 	let { slug } = useParams();
 	const article = myArticles[slug - 1];
 
-	
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, [article]);
@@ -64,7 +63,7 @@ const ReadArticle = () => {
 							</div>
 
 							<div className="title read-article-title">
-								{article().title}
+								{article().title} 🤯
 							</div>
 
 							<div className="read-article-body">
@@ -73,7 +72,7 @@ const ReadArticle = () => {
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer active="articles" read={slug}/>
+						<Footer active="articles" read={slug} />
 					</div>
 				</div>
 			</div>

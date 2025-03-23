@@ -14,7 +14,8 @@
 	z-index: 999;
 }
 
-.projects-title, .projects-subtitle {
+.projects-title,
+.projects-subtitle {
 	width: 100% !important;
 	text-align: justify;
 }
@@ -30,6 +31,7 @@
 @media (max-width: 600px) {
 	.projects-container {
 		padding-top: 60px;
+		overflow: hidden;
 	}
 
 	.projects-project {

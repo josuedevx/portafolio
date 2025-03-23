@@ -31,11 +31,13 @@
 
 .about-title {
 	width: 100% !important;
+	align-items: center;
 }
 
 .about-subtitle {
 	width: 80% !important;
 	text-align: justify;
+	align-items: center;
 }
 
 .about-left-side {
@@ -86,11 +88,13 @@
 
 	.about-subtitle {
 		padding-top: 20px !important;
+		align-items: center;
 	}
 
 	.about-left-side {
 		flex-basis: 100%;
 		order: 1;
+		align-items: center;
 	}
 
 	.about-right-side {
@@ -121,4 +125,27 @@
 		width: 80%;
 	}
 
+	.about-right-side {
+		flex-basis: 100%;
+		width: 100% !important;
+		max-width: 100%;
+		display: inline-block;
+		overflow: hidden;
+		align-items: center !important;
+		text-align: center !important;
+	}
+	.about-subtitle {
+		align-items: center !important;
+		display: inline-block;
+	}
+
+	.about-title {
+		align-items: center !important;
+	}
+
+	.homepage-works {
+		align-items: center !important;
+		display: inline-block;
+		overflow: hidden;
+	}
 }

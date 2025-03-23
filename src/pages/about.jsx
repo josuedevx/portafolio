@@ -51,7 +51,6 @@ const About = () => {
 							<div className="about-right-side">
 								<div className="title about-title">
 									{INFO.about.title}
-									{/* {t("aboutTitle")} */}
 								</div>
 
 								<div className="subtitle about-subtitle">

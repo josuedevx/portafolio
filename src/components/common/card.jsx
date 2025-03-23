@@ -5,6 +5,7 @@ import "./styles/card.css";
 
 const Card = (props) => {
 	const { icon, title, body } = props;
+
 	return (
 		<div className="card">
 			<div className="card-container">
