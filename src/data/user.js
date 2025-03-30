@@ -20,13 +20,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Desarrollador Full Stack: Web y Móvil 👨🏻‍💻",
+		title: "Desarrollador Full Stack 👨🏻‍💻",
 		description:
-			"Soy un desarrollador full-stack con experiencia en la construcción de aplicaciones web escalables, seguras y fiables utilizando diversos marcos y tecnologías. Disfruto resolver problemas complejos y aprendiendo nuevas habilidades. Me apasiona crear código de alta calidad que siga las mejores prácticas y estándares de la industria. Siempre estoy buscando nuevos retos y oportunidades para crecer como desarrollador.",
+			"Disfruto resolver problemas complejos y aprendiendo nuevas habilidades. Me apasiona crear código de alta calidad que siga las mejores prácticas y estándares de la industria.",
 	},
 
 	about: {
 		title: "Orden y colaboración son mi superpoder 🤝🏻",
+		description:
+			"Cuento con experiencia en diversos lenguajes de programación, como TypeScript, JavaScript, PHP, Python, entre otros, lo que me permite aportar soluciones técnicas robustas y versátiles.",
 	},
 
 	articles: {
@@ -37,6 +39,17 @@ const INFO = {
 
 	contact: {
 		title: "Pongámonos en contacto: ¡Hagamos realidad las ideas! 📞",
+	},
+
+	homeProjects: {
+		title: "Proyectos destacados en los que he dejado mi huella 👣",
+		description:
+			"⚠️ Importante: Los proyectos mencionados en este portafolio son descripciones generales de mi experiencia y contribuciones. No comparto código fuente, documentación interna ni información confidencial de ninguna empresa. Toda la información presentada es de carácter público y se limita a destacar mis habilidades y el trabajo realizado sin divulgar detalles sensibles.",
+	},
+
+	curriculum: {
+		title: "Mi Camino en el Desarrollo 📂",
+		description: "¡Hola! 👋 Soy Josue Alvarez Rodriguez, un Ingeniero en Sistemas Computacionales apasionado por el desarrollo de software, la integración de tecnologías y el liderazgo de proyectos innovadores. Si quieres conocer más sobre mi trayectoria, habilidades y logros que he alcanzado, ¡te invito a descargar mi currículum actualizado! Estoy siempre abierto a nuevas oportunidades, colaboraciones y desafíos que me permitan seguir creciendo profesionalmente. ¡No dudes en contactarme si quieres conectar o trabajar juntos en algo increíble! 🚀",
 	},
 
 	projects: [
@@ -61,6 +74,10 @@ const INFO = {
 				{
 					name: "GCP",
 					logo: "https://ucloudglobal.com/wp-content/uploads/2021/09/gcp-02.png",
+				},
+				{
+					name: "CyberArk",
+					logo: "https://seeklogo.com/images/C/cyberark-logo-6A74AABD86-seeklogo.com.png",
 				},
 				{
 					name: "Docker",
@@ -91,6 +108,10 @@ const INFO = {
 				{
 					name: "GCP",
 					logo: "https://ucloudglobal.com/wp-content/uploads/2021/09/gcp-02.png",
+				},
+				{
+					name: "PingOne",
+					logo: "https://d7umqicpi7263.cloudfront.net/img/product/06d88a91-1af5-4388-88cc-4a230d6d79fc.png",
 				},
 				{
 					name: "Docker",
@@ -216,7 +237,7 @@ const INFO = {
 
 	disclaimer: {
 		description:
-			"Los proyectos mencionados en este portafolio son descripciones generales de mi experiencia y contribuciones. No comparto código fuente, documentación interna ni información confidencial de ninguna empresa. Toda la información presentada es de carácter público y se limita a destacar mis habilidades y el trabajo realizado sin divulgar detalles sensibles.",
+			"Toda la información presentada es de carácter público y se limita a destacar mis habilidades y el trabajo realizado sin divulgar detalles sensibles.",
 	},
 };
 

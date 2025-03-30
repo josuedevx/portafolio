@@ -78,7 +78,7 @@ const Contact = () => {
 							estaré encantado de conversar.
 							<br />
 							¡Gracias nuevamente por tu interés! Espero poder
-							conectar contigo pronto. 👋🏽😊
+							conectar contigo pronto. 👋🏽
 						</div>
 					</div>
 

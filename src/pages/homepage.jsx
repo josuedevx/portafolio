@@ -17,6 +17,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import DarkMode from "../components/dark/dark";
 import Languaje from "../components/common/languaje";
+import AnimatedFace from "../components/homepage/face";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -97,13 +98,13 @@ const Homepage = () => {
 								<div className="title homepage-title">
 									{INFO.homepage.title}
 								</div>
-
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
 							</div>
 
 							<div className="homepage-first-area-right-side">
+								{/* <AnimatedFace /> */}
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img

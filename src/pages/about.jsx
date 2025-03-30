@@ -54,31 +54,7 @@ const About = () => {
 								</div>
 
 								<div className="subtitle about-subtitle">
-									<strong>
-										Soy un profesional altamente adaptable,
-									</strong>{" "}
-									capaz de integrarme rápidamente a cualquier
-									entorno y enfocarme en alcanzar los
-									objetivos propuestos. Cuento con experiencia
-									en diversos lenguajes de programación, como{" "}
-									<strong>
-										TypeScript, JavaScript y PHP,
-									</strong>{" "}
-									lo que me permite aportar soluciones
-									técnicas robustas y versátiles.
-									<br />
-									<br />
-									Mi{" "}
-									<strong>
-										pasión por el desarrollo de software y
-										el análisis de sistemas
-									</strong>{" "}
-									me impulsa a buscar constantemente
-									oportunidades donde pueda aplicar mis
-									conocimientos y seguir creciendo en estas
-									áreas. Siempre estoy listo para asumir
-									nuevos retos y contribuir al éxito de
-									proyectos innovadores. 🚀
+									{INFO.about.description}
 								</div>
 								<div className="homepage-works">
 									<Works />

@@ -14,7 +14,11 @@ const AllProjects = () => {
 					<Project
 						logo={project.logo}
 						title={project.title}
-						description={project.description}
+						description={
+							project.description.length > 100
+								? `${project.description.substring(0, 72)}...`
+								: project.description
+						}
 						linkText={project.linkText}
 						link={project.link + (index + 1)}
 					/>

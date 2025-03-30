@@ -13,6 +13,21 @@ const Works = () => {
 				title="Experiencia - Desarrollador de Software"
 				body={
 					<div className="works-body">
+						{/* <div className="work">
+							<img
+								src="https://img.freepik.com/premium-vector/work-office-icon-logo-vector-design-template_827767-2684.jpg"
+								alt="turing"
+								className="work-image"
+							/>
+							<div className="work-title">
+								Bonneville International
+							</div>
+							<div className="work-subtitle">
+								Desarrollador Senior SEO |{" "}
+								<strong> Mar 2025 - Actualidad </strong>
+							</div>
+							<div className="work-duration"></div>
+						</div> */}
 						<div className="work">
 							<img
 								src="https://img.freepik.com/premium-vector/work-office-icon-logo-vector-design-template_827767-2684.jpg"
@@ -36,7 +51,7 @@ const Works = () => {
 								className="work-image"
 							/>
 							<div className="work-title">
-								VILLANET S.A DE C.V
+								VillaNet S.A
 							</div>
 							<div className="work-subtitle">
 								Desarrollador Móvil |{" "}

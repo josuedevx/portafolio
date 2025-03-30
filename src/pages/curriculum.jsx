@@ -51,60 +51,43 @@ const Cv = () => {
 
 					<div className="cv-container">
 						<div className="title cv-title">
-							Mi Camino en el Desarrollo 📂
+							{INFO.curriculum.title}
 						</div>
 
 						<div className="subtitle cv-subtitle">
-							¡Hola! 👋 Soy{" "}
-							<strong>Josue Alvarez Rodriguez</strong>, un
-							Ingeniero en Sistemas Computacionales apasionado por
-							el desarrollo de software, la integración de
-							tecnologías y el liderazgo de proyectos innovadores.
-							Si quieres conocer más sobre mi trayectoria,
-							habilidades y los logros que he alcanzado, ¡te
-							invito a descargar mi currículum actualizado!
-							<br />
-							Estoy siempre abierto a nuevas oportunidades,
-							colaboraciones y desafíos que me permitan seguir
-							creciendo profesionalmente. ¡No dudes en contactarme
-							si quieres conectar o trabajar juntos en algo
-							increíble! 🚀
+							{INFO.curriculum.description}
 						</div>
-
 					</div>
 
-					<div className="skills-container">
+					{/* <div className="skills-container">
 						<div className="contact-skills">
 							<Skills />
 						</div>
-					</div>
+					</div> */}
 
-					
 					<div className="download-container">
-							<Tippy
-								content="Descargar Currículum"
-								placement="bottom"
+						<Tippy
+							content="Descargar Currículum"
+							placement="bottom"
+						>
+							<button
+								className="download-button"
+								onClick={handleDownloadCV}
 							>
-								<button
-									className="download-button"
-									onClick={handleDownloadCV}
-								>
-									{/* Descargar CV{" "} */}
-									<FontAwesomeIcon
-										style={{ fontSize: "20px" }}
-										icon={faDownload}
-									/>
-								</button>
-							</Tippy>
-						</div>
+								{/* Descargar CV{" "} */}
+								<FontAwesomeIcon
+									style={{ fontSize: "20px" }}
+									icon={faDownload}
+								/>
+							</button>
+						</Tippy>
+					</div>
 
 					<div className="socials-container">
 						<div className="cv-socials">
 							<Socials />
 						</div>
 					</div>
-
-					
 
 					<div className="page-footer">
 						<Footer active="cv" />
