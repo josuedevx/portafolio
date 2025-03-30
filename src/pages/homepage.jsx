@@ -108,8 +108,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											// src={imagemINE}
-											src="https://scontent.fmex10-5.fna.fbcdn.net/v/t1.6435-9/176064943_1101825013632178_6130453568193432033_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9Q6z-k68164Q7kNvgGDBEtL&_nc_oc=AdlWzmcuaymclJNH_A6Faow0QkqjnsZuRu1Dd6QY4qjdqQibjwqBU4Eq9_WvisdKZu1zxYIocL9tq3HnpScGT7D-&_nc_zt=23&_nc_ht=scontent.fmex10-5.fna&_nc_gid=6z5XHJjO2fjZlms_M-aA8w&oh=00_AYEMZeQpn6n5eYQA_-IhVZb47jUl2kOoQDCEDRxKkNGt_Q&oe=6802ECBC"
+											src={imagemINE}
+											// src="https://scontent.fmex10-5.fna.fbcdn.net/v/t1.6435-9/176064943_1101825013632178_6130453568193432033_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9Q6z-k68164Q7kNvgGDBEtL&_nc_oc=AdlWzmcuaymclJNH_A6Faow0QkqjnsZuRu1Dd6QY4qjdqQibjwqBU4Eq9_WvisdKZu1zxYIocL9tq3HnpScGT7D-&_nc_zt=23&_nc_ht=scontent.fmex10-5.fna&_nc_gid=6z5XHJjO2fjZlms_M-aA8w&oh=00_AYEMZeQpn6n5eYQA_-IhVZb47jUl2kOoQDCEDRxKkNGt_Q&oe=6802ECBC"
 											alt="about"
 											className="homepage-image"
 										/>

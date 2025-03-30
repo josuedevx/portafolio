@@ -38,7 +38,24 @@ body.dark-mode .floating-btn-languaje {
 }
 
 body.dark-mode .nav-background {
-	background-color: var(--quaternary-color);
+	background: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente */
+	backdrop-filter: blur(10px); /* Efecto de desenfoque */
+	-webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+	border: 1px solid rgba(255, 255, 255, 0.3); /* Sutil borde para realismo */
+}
+body.dark-mode .nav-item a{
+	color: white !important;
+}
+body.dark-mode .nav-item.active a  {
+	color: white !important;
+}
+body.dark-mode  .nav-hamburger  {
+	color: white !important;
+}
+
+body.dark-mode .nav-item a:hover {
+	color: var(--link-color) !important;
+	transition: color 0.3s ease-in-out;
 }
 
 body.dark-mode {
