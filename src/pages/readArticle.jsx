@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
+import Tippy from "@tippyjs/react";
+import styled from "styled-components";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -11,6 +14,8 @@ import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
+import "./styles/cv.css";
+import "tippy.js/dist/tippy.css";
 
 let ArticleStyle = styled.div``;
 
@@ -26,6 +31,16 @@ const ReadArticle = () => {
 	ArticleStyle = styled.div`
 		${article().style}
 	`;
+
+	const share = async () => {
+		try {
+			await navigator.clipboard.writeText(window.location.href);
+			alert("¡URL copiada al portapapeles, comparte este enlace con tus contactos!");
+		} catch (err) {
+			console.error("Error al copiar la URL:", err);
+			alert("No se pudo copiar la URL. Intenta manualmente.");
+		}
+	};
 
 	return (
 		<React.Fragment>
@@ -68,6 +83,22 @@ const ReadArticle = () => {
 
 							<div className="read-article-body">
 								<ArticleStyle>{article().body}</ArticleStyle>
+								<div className="share-container">
+									<Tippy
+										content="Compartir artículo"
+										placement="bottom"
+									>
+										<button
+											className="share-button"
+											onClick={share}
+										>
+											<FontAwesomeIcon
+												style={{ fontSize: "15px" }}
+												icon={faLink}
+											/>
+										</button>
+									</Tippy>
+								</div>
 							</div>
 						</div>
 					</div>
