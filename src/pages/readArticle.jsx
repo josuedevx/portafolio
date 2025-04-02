@@ -35,7 +35,9 @@ const ReadArticle = () => {
 	const share = async () => {
 		try {
 			await navigator.clipboard.writeText(window.location.href);
-			alert("¡URL copiada al portapapeles, comparte este enlace con tus contactos!");
+			alert(
+				"¡URL copiada al portapapeles, comparte este enlace con tus contactos!"
+			);
 		} catch (err) {
 			console.error("Error al copiar la URL:", err);
 			alert("No se pudo copiar la URL. Intenta manualmente.");
