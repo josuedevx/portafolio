@@ -3,7 +3,7 @@ import codeJava from "../assets/codeJava.png";
 import imgRefle from "../assets/imgRefle.jpg";
 import "./styles.css";
 
-function article_8() {
+function article_9() {
 	return {
 		date: "07 enero 2024",
 		title: "Reflexión: Beneficios del Cloud Computing",
@@ -85,7 +85,7 @@ function article_8() {
 	};
 }
 
-function article_7() {
+function article_8() {
 	return {
 		date: "07 marzo 2024",
 		title: "Reflexión: La importancia de Google Cloud Run",
@@ -172,7 +172,7 @@ function article_7() {
 	};
 }
 
-function article_6() {
+function article_7() {
 	return {
 		date: "15 agosto 2024",
 		title: "Tutorial: Introducción a la Programación en Python",
@@ -259,7 +259,7 @@ function article_6() {
 	};
 }
 
-function article_5() {
+function article_6() {
 	return {
 		date: "20 septiembre 2024",
 		title: "Consejo: Desarrollo de Aplicaciones Web con React",
@@ -344,7 +344,7 @@ function article_5() {
 	};
 }
 
-function article_4() {
+function article_5() {
 	return {
 		date: "28 enero 2025",
 		title: "Tutorial: Creando una API REST Básica con Node.js y Express",
@@ -459,7 +459,7 @@ function article_4() {
 	};
 }
 
-function article_3() {
+function article_4() {
 	return {
 		date: "12 febrero 2025",
 		title: "Reflexión: El Desafío de Crecer en TI en un Mercado Exigente",
@@ -559,7 +559,7 @@ function article_3() {
 	};
 }
 
-function article_2() {
+function article_3() {
 	return {
 		date: "25 febrero 2025",
 		title: "Consejo: 30 APIs GRATUITAS para Desarrolladores",
@@ -748,7 +748,7 @@ function article_2() {
 	};
 }
 
-function article_1() {
+function article_2() {
 	return {
 		date: "06 marzo 2025",
 		title: "Tutorial: Cómo Mejorar en Programación: Claves para Convertirte en un Mejor Desarrollador",
@@ -917,6 +917,193 @@ function article_1() {
 	};
 }
 
+function article_1() {
+	return {
+		date: "06 abril 2025",
+		title: "Consejo: ¿Falta de inspiración? Ejemplos de construcción diseño UI y UX",
+		description:
+			"Alguna vez te preguntaste cómo sabés instintivamente qué elementos en una UI son interactivos? Eso es gracias a los significantes.",
+		keywords: [
+			"APIs",
+			"Desarrollo",
+			"Programación",
+			"Software",
+			"Herramientas",
+		],
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid var(--link-color) !important;
+				max-width: 100%;
+				height: auto;
+			}
+			
+			.hashtags {
+				font-weight: bold;
+				color: #1D79D7;
+			}
+
+			.marginBottom {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-top: 0.5rem;
+
+			}
+
+			.btn-example1 {
+				position: relative;
+				color: white;
+				background: linear-gradient(90deg, var(--link-color), var(--link-color));
+				width: 20%;
+				height: 40px;
+				font-family: var(--tertiary-font);
+				text-align: center;
+				border: none;
+				border-radius: 50px;
+				cursor: pointer;
+				transition: all 0.3s ease;
+				overflow: hidden;
+				z-index: 1;
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+
+			.btn-example1:hover::before {
+				opacity: 1;
+				transform: scale(1, 1);
+			}
+
+			.btn-example1:hover {
+				transform: translateY(-3px);
+				box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+				color: var(--link-color);
+				background: white;
+			}
+
+			.btn-example1:active {
+				transform: translateY(1px);
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			}
+
+			@media (max-width: 600px) {
+				.btn-example1 {
+				width: 40%;
+
+				}
+			}
+
+		`,
+
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						¿Qué son los significantes? Son señales que comunican
+						cómo debe usarse un elemento, pistas visuales, sonidos,
+						animaciones, textos, ubicación… básicamente, cualquier
+						indicio de interactividad.
+					</div>
+
+					<h3>💡Ejemplos de significantes en acción:</h3>
+					<ul style={{ listStyle: "none", padding: 0 }}>
+						<li style={{ marginBottom: "2rem" }}>
+							✅ Un botón con sombra → Parece presionable.
+							<div className="marginBottom">
+								<button className="btn-example1">
+									Presióname
+								</button>
+							</div>
+						</li>
+
+						<li style={{ marginBottom: "2rem" }}>
+							✅ Un enlace subrayado → Da a entender que es
+							clickeable.
+							<div className="marginBottom">
+								<a
+									href={window.location.href}
+									style={{
+										color: "var(--link-color)",
+										textDecoration: "underline",
+										fontSize: "1rem",
+									}}
+								>
+									#Este es un enlace
+								</a>
+							</div>
+						</li>
+
+						<li style={{ marginBottom: "2rem" }}>
+							✅ Un slider con un handle → Invita a arrastrarlo.
+							<div className="marginBottom">
+								<input
+									type="range"
+									min="0"
+									max="100"
+									defaultValue="50"
+									style={{
+										width: "100%",
+										maxWidth: "300px",
+										accentColor: "var(--link-color)",
+										cursor: "pointer",
+									}}
+								/>
+							</div>
+						</li>
+
+						<li style={{ marginBottom: "2rem" }}>
+							✅ Un bip al tocar algo → Confirma la acción.
+							<div
+								style={{ marginTop: "0.5rem" }}
+								className="marginBottom"
+							>
+								<button
+									onClick={() =>
+										new Audio(
+											"https://www.soundjay.com/buttons/sounds/button-16a.mp3"
+										).play()
+									}
+									className="btn-example1"
+								>
+									Tócame
+								</button>
+							</div>
+						</li>
+					</ul>
+
+					<p>
+						📌 Los significantes no son solo visuales, pueden ser
+						sonoros, táctiles o incluso de comportamiento. La clave
+						es: si una persona puede percibirlo e interpretarlo como
+						una pista, es un significante.
+					</p>
+					<p>
+						📌 Conclusión: Un buen diseño UX no solo hace que las
+						cosas funcionen, sino que sean intuitivas. Y ahí es
+						donde los significantes marcan la diferencia. ✨
+					</p>
+
+					<img
+						src="https://media.licdn.com/dms/image/v2/D4D10AQH-_tyGFni9dw/image-shrink_1280/B4DZWhCfruGkAM-/0/1742163542483?e=1744585200&v=beta&t=Zx2fT8Y3WeLsz7mDI5n4xAGMxj6uEqT-d4_y5ZnAbLA"
+						alt="cleanCode"
+						className="randImage"
+					/>
+
+					<p className="hashtags">
+						#Programación #DesarrolloDeSoftware #CleanCode #Backend
+						#Frontend #IA #UI #UX #DevOps #CodingTips 🚀
+					</p>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
 const myArticles = [
 	article_1,
 	article_2,
@@ -926,6 +1113,7 @@ const myArticles = [
 	article_6,
 	article_7,
 	article_8,
+	article_9,
 ];
 
 export default myArticles;
