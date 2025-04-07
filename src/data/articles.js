@@ -5,88 +5,6 @@ import "./styles.css";
 
 function article_9() {
 	return {
-		date: "07 enero 2024",
-		title: "Reflexión: Beneficios del Cloud Computing",
-		description:
-			"La computación en nube ofrece una serie de ventajas, como el ahorro de costes y una mayor flexibilidad.",
-		keywords: [
-			"Beneficios del Cloud Computing",
-			"Computación en la nube",
-			"Ventajas de la nube",
-			"Cloud Computing",
-			"Servicios en la nube",
-		],
-		style: `
-				.article-content {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-				}
-
-				.randImage {
-					align-self: center;
-					outline: 2px solid var(--link-color) !important;
-					max-width: 100%;
-					height: auto;
-				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">
-						La computación en la nube ha revolucionado la forma en
-						que las organizaciones acceden y gestionan los recursos
-						tecnológicos. Entre los beneficios más destacados se
-						encuentran:
-					</div>
-					<ul>
-						<li>
-							<strong>Reducción de costos:</strong> Las empresas
-							ya no necesitan invertir en infraestructura física
-							costosa, lo que reduce los gastos operativos y de
-							mantenimiento.
-						</li>
-						<li>
-							<strong>Escalabilidad:</strong> Los recursos pueden
-							ajustarse dinámicamente según la demanda, lo que
-							garantiza una capacidad óptima en todo momento.
-						</li>
-						<li>
-							<strong>Acceso global:</strong> Los usuarios pueden
-							acceder a sus datos y aplicaciones desde cualquier
-							lugar con conexión a Internet.
-						</li>
-						<li>
-							<strong>Seguridad mejorada:</strong> Los proveedores
-							de servicios en la nube implementan protocolos de
-							seguridad avanzados y actualizaciones automáticas.
-						</li>
-						<li>
-							<strong>Resiliencia y respaldo:</strong> Los datos
-							en la nube se replican en varias ubicaciones,
-							minimizando la pérdida de información en caso de
-							fallas.
-						</li>
-					</ul>
-					<div className="paragraph">
-						Adicionalmente, la computación en la nube facilita la
-						innovación continua, ya que permite a las empresas
-						integrar nuevas tecnologías y servicios sin
-						interrupciones.
-					</div>
-					<img
-						src="https://pandorafms.com/blog/wp-content/uploads/2023/11/DALL%C2%B7E-2023-11-27-13.56.23-A-minimalistic-and-modern-illustration-for-a-blog-post-about-Cloud-Computing.-The-design-includes-simple-symbols-representing-cloud-storage-data-tran.png"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
-	};
-}
-
-function article_8() {
-	return {
 		date: "07 marzo 2024",
 		title: "Reflexión: La importancia de Google Cloud Run",
 		description:
@@ -161,8 +79,10 @@ function article_8() {
 						en el desarrollo de aplicaciones modernas sin
 						comprometer la flexibilidad y el control.
 					</div>
+					<br>
+					</br>
 					<img
-						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxPyhZbVxDEGyGb_jXPQu53zEBiXB1-zMhlg&s"
+						src="https://www.tenable.com/sites/default/files/images/articles/ConfusedFunction%20%20Privilege%20Escalation%20Vulnerability%20Impacting%20GCP.gif"
 						alt="random"
 						className="randImage"
 					/>
@@ -172,7 +92,7 @@ function article_8() {
 	};
 }
 
-function article_7() {
+function article_8() {
 	return {
 		date: "15 agosto 2024",
 		title: "Tutorial: Introducción a la Programación en Python",
@@ -249,7 +169,7 @@ function article_7() {
 					</div>
 					<br></br>
 					<img
-						src="https://www.shutterstock.com/shutterstock/videos/1097709827/thumb/8.jpg?ip=x480"
+						src="https://media1.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif?cid=6c09b952t76gn9bzvflu83zhlr411nf4mmh2bk6weetqb75b&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g"
 						alt="Python"
 						className="randImage"
 					/>
@@ -259,7 +179,7 @@ function article_7() {
 	};
 }
 
-function article_6() {
+function article_7() {
 	return {
 		date: "20 septiembre 2024",
 		title: "Consejo: Desarrollo de Aplicaciones Web con React",
@@ -334,7 +254,7 @@ function article_6() {
 					</div>
 					<br></br>
 					<img
-						src="https://bigbite.net/wp-content/uploads/2017/11/React.jpg"
+						src="https://miro.medium.com/v2/resize:fit:1400/1*WqMpsn9c8JsbbIxIRr50ug.gif"
 						alt="React"
 						className="randImage"
 					/>
@@ -344,7 +264,7 @@ function article_6() {
 	};
 }
 
-function article_5() {
+function article_6() {
 	return {
 		date: "28 enero 2025",
 		title: "Tutorial: Creando una API REST Básica con Node.js y Express",
@@ -449,7 +369,7 @@ function article_5() {
 					</p>
 					<br></br>
 					<img
-						src="https://www.curotec.com/wp-content/uploads/2024/08/Express-1.png?w=1024"
+						src="https://images.squarespace-cdn.com/content/v1/58d20c79725e25b221549193/1608020490393-RBHFYWZAECA6UCJMX7FK/Integrate+CI+CD.gif?format=1000w"
 						alt="Node.js y Express"
 						className="randImage"
 					/>
@@ -459,7 +379,7 @@ function article_5() {
 	};
 }
 
-function article_4() {
+function article_5() {
 	return {
 		date: "12 febrero 2025",
 		title: "Reflexión: El Desafío de Crecer en TI en un Mercado Exigente",
@@ -559,7 +479,7 @@ function article_4() {
 	};
 }
 
-function article_3() {
+function article_4() {
 	return {
 		date: "25 febrero 2025",
 		title: "Consejo: 30 APIs GRATUITAS para Desarrolladores",
@@ -718,17 +638,15 @@ function article_3() {
 					</p>
 
 					<img
-						src="https://media.licdn.com/dms/image/v2/D4E22AQE-XUY2enz3rA/feedshare-shrink_2048_1536/B4EZU6ossGGYAo-/0/1740445503961?e=1743638400&v=beta&t=SplcTS9nCoEa-wxMXFgvSQ44tSiYR3nXCeLazRhXxzE"
+						src="https://media.licdn.com/dms/image/v2/D4E22AQE-XUY2enz3rA/feedshare-shrink_2048_1536/B4EZU6ossGGYAo-/0/1740445503961?e=1746662400&v=beta&t=5cWKa0hjnsrjyGeq04UkdkB8MbqZY48QuAHgR4pEeHY"
 						alt="apiservice"
 						className="randImage"
 					/>
 
 					<p className="hashtags">
-						#Developers hashtag#SoftwareDevelopment hashtag#APIs
-						hashtag#FreeTools hashtag#Coding hashtag#WebDevelopment
-						hashtag#AI hashtag#BigData hashtag#NewsAPI
-						hashtag#OpenSource hashtag#Tech hashtag#Innovation
-						hashtag#DataScience 🚀
+						#Developers #SoftwareDevelopment #APIs #FreeTools
+						#Coding #WebDevelopment #AI #BigData #NewsAPI
+						#OpenSource #Tech #Innovation #DataScience 🚀
 					</p>
 
 					<p>
@@ -748,7 +666,7 @@ function article_3() {
 	};
 }
 
-function article_2() {
+function article_3() {
 	return {
 		date: "06 marzo 2025",
 		title: "Tutorial: Cómo Mejorar en Programación: Claves para Convertirte en un Mejor Desarrollador",
@@ -917,7 +835,7 @@ function article_2() {
 	};
 }
 
-function article_1() {
+function article_2() {
 	return {
 		date: "06 abril 2025",
 		title: "Consejo: ¿Falta de inspiración? Ejemplos de construcción diseño UI y UX",
@@ -1097,6 +1015,147 @@ function article_1() {
 					<p className="hashtags">
 						#Programación #DesarrolloDeSoftware #CleanCode #Backend
 						#Frontend #IA #UI #UX #DevOps #CodingTips 🚀
+					</p>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
+function article_1() {
+	return {
+		date: "07 marzo 2025",
+		title: "Tutorial:  ¿Quieres aprender Backend Development como un PRO?",
+		description:
+			"GUÁRDALO AHORA si estás construyendo tu camino como desarrollador backend. ¡Este mapa mental te lo deja clarito!",
+		keywords: ["APIs", "Desarrollo", "Backend", "Development", "PRO"],
+		style: `
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid var(--link-color) !important;
+				max-width: 100%;
+				height: auto;
+			}
+			
+			.hashtags {
+				font-weight: bold;
+				color: #1D79D7;
+			}
+		`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						Aquí tienes los 6 pilares esenciales para dominar el
+						backend: 🧠🧩
+					</div>
+					<h3>
+						🔹 1️⃣ Fundamentos: Aprende las bases antes de entrar en
+						el código:
+					</h3>
+					<ul>
+						<li>✅ ¿Qué es backend vs frontend?</li>
+						<li>✅ ¿Cómo funciona el modelo cliente-servidor?</li>
+						<li>
+							✅ Conceptos clave como DNS, HTTP, puertos y
+							dominios
+						</li>
+					</ul>
+					<h3>
+						🔹 2️⃣ Lenguajes de programación Backend: Elige el que
+						más se ajuste a tu estilo y proyecto:
+					</h3>
+					<ul>
+						<li>🟢 JavaScript (Node.js)</li>
+						<li>🐍 Python (Django, Flask)</li>
+						<li>☕ Java (Spring Boot)</li>
+						<li>🔵 C# (.NET)</li>
+						<li>🐹 Go</li>
+						<li>🦀 Rust</li>
+					</ul>
+
+					<h3>
+						🔹 3️⃣ Bases de Datos (DB): Todo sistema necesita guardar
+						datos:
+					</h3>
+					<ul>
+						<li>📌 SQL: PostgreSQL, MySQL, SQLite</li>
+						<li>📌 NoSQL: MongoDB, Firebase, DynamoDB</li>
+						<li>📌 NewSQL: CockroachDB, Google Spanner</li>
+						<li>
+							🎯 Aprende a usar ORMs (Sequelize, Prisma,
+							Hibernate)
+						</li>
+						<li>⚡ Implementa caching (Redis, Memcached)</li>
+					</ul>
+
+					<h3>
+						🔹 4️⃣ APIs y Servicios Web: Aprende a conectar tus
+						sistemas:
+					</h3>
+					<ul>
+						<li>📌 REST, GraphQL, gRPC, SOAP</li>
+						<li>🔐 Autenticación: JWT, OAuth2, API Keys</li>
+						<li>
+							🛡️ Buenas prácticas: rate limiting, versionado,
+							documentación
+						</li>
+					</ul>
+
+					<h3>
+						🔹 5️⃣ Servidores y Hosting: Sube tu app al mundo real:
+					</h3>
+					<ul>
+						<li>🛠️ Configura servidores (Nginx, Apache)</li>
+						<li>🐳 Usa Docker para contenerización</li>
+						<li>☁️ Hosting: AWS, Azure, GCP, Vercel</li>
+						<li>⚙️ Kubernetes para orquestación avanzada</li>
+					</ul>
+
+					<h3>
+						🔹 6️⃣ DevOps para Backend: Automatiza, monitorea y
+						mejora tu flujo:
+					</h3>
+					<ul>
+						<li>🚀 CI/CD con GitHub Actions, Jenkins</li>
+						<li>📦 IaC: Terraform, Ansible</li>
+						<li>📊 Monitoreo: Prometheus, Grafana, ELK Stack</li>
+					</ul>
+
+					<p>
+						💬 ¿Y tú? ¿Qué agregarías para dominar el backend en
+						2025?
+					</p>
+
+					<img
+						src="https://media.licdn.com/dms/image/v2/D4E22AQF5lJq8YPIFbg/feedshare-shrink_800/B4EZX_IGXvHgAg-/0/1743742072370?e=1746662400&v=beta&t=s0a8Fplxq63ywn4Kia5RC_1TApQzZn7LPopYrKrcxMI"
+						alt="cleanCode"
+						className="randImage"
+					/>
+
+					<p className="hashtags">
+						#BackendDevelopment #WebDevelopment #FullStack #DevOps
+						#APIs #Docker #Microservices #BackendEngineer
+						#BackendRoadmap #Database #CloudComputing #Nodejs
+						#Python #SQL #Infrastructure
+					</p>
+
+					<p>
+						<strong>💻 Fuente original de la idea:</strong>{" "}
+						Publicación en LinkedIn de{" "}
+						<a
+							href="https://www.linkedin.com/feed/update/urn:li:activity:7300122407896252416/"
+							target="_blank"
+						>
+							Ignacio C
+						</a>
+						. Ayudo a desarrolladores a crecer con IA y software.
 					</p>
 				</div>
 			</React.Fragment>
