@@ -27,13 +27,17 @@ const NavBar = (props) => {
 						<ul className={`nav-list ${menuOpen ? "open" : ""}`}>
 							<li
 								className={
-									active === "home"
+									active === "home" || active === "articles"
 										? "nav-item active"
 										: "nav-item"
 								}
 								onClick={closeMenu}
 							>
-								<Link to="/">Inicio</Link>
+								<Link to="/">
+									{active === "articles" && read >= 0
+										? `Inicio | Art. ${read}`
+										: "Inicio"}
+								</Link>
 							</li>
 							<li
 								className={
@@ -59,20 +63,6 @@ const NavBar = (props) => {
 										: "Proyectos"}
 								</Link>
 							</li>
-							{/* <li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-								onClick={closeMenu}
-							>
-								<Link to="/articles">
-									{read >= 0 && active === "articles"
-										? "Artículo: " + read
-										: "Artículos"}
-								</Link>
-							</li> */}
 							<li
 								className={
 									active === "contact"

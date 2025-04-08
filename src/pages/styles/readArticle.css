@@ -78,7 +78,6 @@
 	margin-top: 15px;
 }
 
-
 .share-button {
 	position: relative;
 	color: white;
@@ -131,5 +130,8 @@
 		font-size: 25px !important;
 		font-weight: 100 !important;
 		text-align: center;
+	}
+	.share-button {
+		width: 40%;
 	}
 }

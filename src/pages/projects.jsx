@@ -43,7 +43,7 @@ const Projects = () => {
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							<strong>{INFO.homeProjects.description}</strong>
+							{INFO.homeProjects.description}
 						</div>
 
 						<div className="projects-list">

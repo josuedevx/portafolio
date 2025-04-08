@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLink } from "@fortawesome/free-solid-svg-icons";
+import { faShareAlt} from "@fortawesome/free-solid-svg-icons";
 
 import Tippy from "@tippyjs/react";
 import styled from "styled-components";
@@ -64,12 +64,17 @@ const ReadArticle = () => {
 
 					<div className="read-article-container">
 						<div className="read-article-back">
-							<img
-								src="https://static.thenounproject.com/png/1410611-200.png"
-								alt="back"
-								className="read-article-back-button"
-								onClick={() => navigate(-1)}
-							/>
+							<Tippy
+								content="Regresar al inicio"
+								placement="bottom"
+							>
+								<img
+									src="https://static.thenounproject.com/png/1410611-200.png"
+									alt="back"
+									className="read-article-back-button"
+									onClick={() => navigate("/")}
+								/>
+							</Tippy>
 						</div>
 
 						<div className="read-article-wrapper">
@@ -93,10 +98,10 @@ const ReadArticle = () => {
 										<button
 											className="share-button"
 											onClick={share}
-										>
+										> Compartir {" "}
 											<FontAwesomeIcon
 												style={{ fontSize: "15px" }}
-												icon={faLink}
+												icon={faShareAlt}
 											/>
 										</button>
 									</Tippy>

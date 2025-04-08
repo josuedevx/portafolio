@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 
+import Tippy from "@tippyjs/react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import DarkMode from "../components/dark/dark";
@@ -10,6 +13,7 @@ import INFO from "../data/user";
 import getDate from "../data/date";
 
 import "./styles/readProject.css";
+import "tippy.js/dist/tippy.css";
 
 const ReadProject = () => {
 	const navigate = useNavigate();
@@ -20,6 +24,18 @@ const ReadProject = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, [project]);
+
+	const share = async () => {
+		try {
+			await navigator.clipboard.writeText(window.location.href);
+			alert(
+				"¡URL copiada al portapapeles, comparte este enlace con tus contactos!"
+			);
+		} catch (err) {
+			console.error("Error al copiar la URL:", err);
+			alert("No se pudo copiar la URL. Intenta manualmente.");
+		}
+	};
 
 	return (
 		<React.Fragment>
@@ -41,12 +57,17 @@ const ReadProject = () => {
 
 					<div className="read-project-container">
 						<div className="read-project-back">
+						<Tippy
+								content="Regresar a proyectos"
+								placement="bottom"
+							>
 							<img
 								src="https://static.thenounproject.com/png/1410611-200.png"
 								alt="back"
 								className="read-project-back-button"
-								onClick={() => navigate(-1)}
+								onClick={() => navigate("/projects")}
 							/>
+							</Tippy>
 						</div>
 
 						<div className="read-project-wrapper">
@@ -82,6 +103,24 @@ const ReadProject = () => {
 										</div>
 									);
 								})}
+							</div>
+							<div className="share-project-container">
+								<Tippy
+									content="Compartir proyecto"
+									placement="bottom"
+								>
+									<button
+										className="share-project-button"
+										onClick={share}
+									>
+										{" "}
+										Compartir{" "}
+										<FontAwesomeIcon
+											style={{ fontSize: "15px" }}
+											icon={faShareAlt}
+										/>
+									</button>
+								</Tippy>
 							</div>
 						</div>
 					</div>

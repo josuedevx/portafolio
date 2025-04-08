@@ -15,12 +15,16 @@ const Footer = (props) => {
 					<ul className="footer-nav-link-list">
 						<li
 							className={
-								active === "home"
+								active === "home" || active === "articles"
 									? "footer-nav-link-item active"
 									: "footer-nav-link-item"
 							}
 						>
-							<Link to="/">Inicio</Link>
+							<Link to="/">
+								{active === "articles" && read >= 0
+									? `Inicio | Art. ${read}`
+									: "Inicio"}
+							</Link>
 						</li>
 						<li
 							className={
@@ -44,19 +48,6 @@ const Footer = (props) => {
 									: "Proyectos"}
 							</Link>
 						</li>
-						{/* <li
-							className={
-								active === "articles"
-									? "footer-nav-link-item active"
-									: "footer-nav-link-item"
-							}
-						>
-							<Link to="/articles">
-								{read >= 0 && active === "articles"
-									? "Artículo: " + read
-									: "Artículos"}
-							</Link>
-						</li> */}
 						<li
 							className={
 								active === "contact"
