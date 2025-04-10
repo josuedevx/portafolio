@@ -11,7 +11,7 @@ import DarkMode from "../components/dark/dark";
 import Skills from "../components/about/skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import MyCv from "../assets/CV AARJ010123LM0.pdf";
+import MyCv from "../assets/CVAARJ010123LM0.pdf";
 
 import "./styles/cv.css";
 import "tippy.js/dist/tippy.css";
