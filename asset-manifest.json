@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.e430a1f9.css",
-    "main.js": "/portafolio/static/js/main.d84c03bd.js",
+    "main.js": "/portafolio/static/js/main.d590e9ea.js",
     "static/js/787.512dd3f2.chunk.js": "/portafolio/static/js/787.512dd3f2.chunk.js",
     "static/media/mexico-flag.png": "/portafolio/static/media/mexico-flag.87c2a24b52dc3fd28107.png",
     "static/media/ghibli.jpg": "/portafolio/static/media/ghibli.6660d1a22e868659905c.jpg",
+    "static/media/CVAARJ010123LM0.pdf": "/portafolio/static/media/CVAARJ010123LM0.46d45441983c58092809.pdf",
     "static/media/yo3.jpg": "/portafolio/static/media/yo3.c43d20306c6e9a837758.jpg",
-    "static/media/CV AARJ010123LM0.pdf": "/portafolio/static/media/CV AARJ010123LM0.75f751e6327c6d11c261.pdf",
     "static/media/imgRefle.jpg": "/portafolio/static/media/imgRefle.3855379a621272ea258d.jpg",
     "static/media/codeJava.png": "/portafolio/static/media/codeJava.569064a244703c89b45c.png",
     "static/media/usa-flag.webp": "/portafolio/static/media/usa-flag.b49770609fe47cd5aceb.webp",
@@ -16,11 +16,11 @@
     "static/media/slick.woff": "/portafolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portafolio/index.html",
     "main.e430a1f9.css.map": "/portafolio/static/css/main.e430a1f9.css.map",
-    "main.d84c03bd.js.map": "/portafolio/static/js/main.d84c03bd.js.map",
+    "main.d590e9ea.js.map": "/portafolio/static/js/main.d590e9ea.js.map",
     "787.512dd3f2.chunk.js.map": "/portafolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e430a1f9.css",
-    "static/js/main.d84c03bd.js"
+    "static/js/main.d590e9ea.js"
   ]
 }
