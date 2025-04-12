@@ -54,6 +54,36 @@ const INFO = {
 
 	projects: [
 		{
+			title: "SEO Tool Keywords Generator",
+			description:
+				"Desarrollé una herramienta automatizada de generación de keywords SEO que mediante scraping extrae metadatos y contenido de URLs para luego procesarlos con Google Gemini IA optimizando su semántica e integrando la API de Google Keyword Planner que analiza volumen de búsqueda CPC y competencia generando keywords altamente efectivas con un 40% más de rendimiento y reduciendo un 70% el tiempo de investigación tradicional gracias a su arquitectura en PHP 8 y flujo automatizado.",
+			logo: "https://png.pngtree.com/png-clipart/20230509/original/pngtree-keyword-vector-png-image_9153596.png",
+			technologies: [
+				{
+					name: "Gemini IA",
+					logo: "https://1000logos.net/wp-content/uploads/2024/02/Gemini-Logo.png",
+				},
+				{
+					name: "Google Ads",
+					logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Ads_logo.svg/1200px-Google_Ads_logo.svg.png",
+				},
+				{
+					name: "PHP 8",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919830.png",
+				},
+				{
+					name: "OAuth 2.0",
+					logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Oauth_logo.svg/2041px-Oauth_logo.svg.png",
+				},
+				{
+					name: "Composer",
+					logo: "https://upload.wikimedia.org/wikipedia/commons/2/26/Logo-composer-transparent.png",
+				}
+			],
+			linkText: text,
+			link: formData,
+		},
+		{
 			title: "Visor de Documentos en Línea",
 			description:
 				"Desarrollé un sistema de gestión de documentos PDF que optimiza el acceso y la seguridad de la información. Los usuarios pueden visualizar archivos según su rol, asegurando un control de permisos eficiente. La autenticación se gestiona con SAML como IdP para reforzar la seguridad, y la infraestructura.",

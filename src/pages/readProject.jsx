@@ -81,7 +81,7 @@ const ReadProject = () => {
 							<div className="read-project-body">
 								{project.description}
 							</div>
-							<h3>Tecnologías utilizadas</h3>
+							<h3>⚙️ Tecnologías Utilizadas</h3>
 							<div className="project-technologies">
 								{project.technologies.map((tech, index) => {
 									const techKey = Object.keys(tech).find(
