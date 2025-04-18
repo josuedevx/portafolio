@@ -1187,7 +1187,7 @@ function article_1() {
 function article_0() {
 	return {
 		date: "18 abril 2025",
-		title: "Generador Avanzado de Keywords para Google Ads con IA y PHP",
+		title: "Tutorial: Generador Avanzado de Keywords para Google Ads con IA y PHP",
 		description:
 			"Implementa un sistema inteligente para generación de palabras clave con métricas SEO usando la API de Google Ads y Gemini AI.",
 		keywords: [
@@ -1312,7 +1312,7 @@ function article_0() {
 							</li>
 						</ul>
 					</div>
-					
+
 					<div className="feature-box">
 						<h3>
 							📋 Requisitos del sistema y proceso de
