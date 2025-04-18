@@ -40,11 +40,6 @@ const Cv = () => {
 
 	const currentSEO = SEO.find((item) => item.page === "cv") || {};
 
-	const handleDownloadCV = () => {
-		const cvUrl = MyCv;
-		window.open(cvUrl, "_blank");
-	};
-
 	return (
 		<React.Fragment>
 			<Helmet>
