@@ -43,13 +43,13 @@ body.dark-mode .nav-background {
 	-webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
 	border: 1px solid rgba(255, 255, 255, 0.3); /* Sutil borde para realismo */
 }
-body.dark-mode .nav-item a{
+body.dark-mode .nav-item a {
 	color: white !important;
 }
-body.dark-mode .nav-item.active a  {
+body.dark-mode .nav-item.active a {
 	color: white !important;
 }
-body.dark-mode  .nav-hamburger  {
+body.dark-mode .nav-hamburger {
 	color: white !important;
 }
 
@@ -243,4 +243,12 @@ body.dark-mode .tech-item {
 	background: var(--primary-color);
 	box-shadow: 0 2px 4px rgba(128, 128, 128, 0.1);
 	/* background: none; */
+}
+
+body.dark-mode .modal-header {
+	background: var(--primary-color);
+}
+
+body.dark-mode .close-button {
+	color: var(--white-color);
 }

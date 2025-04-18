@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons/faDownload";
+import { faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import Tippy from "@tippyjs/react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -17,6 +18,22 @@ import "./styles/cv.css";
 import "tippy.js/dist/tippy.css";
 
 const Cv = () => {
+	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [isClosing, setIsClosing] = useState(false);
+
+	const handleOpenModal = () => {
+		setIsModalOpen(true);
+		setIsClosing(false);
+	};
+
+	const handleCloseModal = () => {
+		setIsClosing(true);
+		setTimeout(() => {
+			setIsModalOpen(false);
+			setIsClosing(false);
+		}, 300);
+	};
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -72,7 +89,7 @@ const Cv = () => {
 						>
 							<button
 								className="download-button"
-								onClick={handleDownloadCV}
+								onClick={handleOpenModal}
 							>
 								{/* Descargar CV{" "} */}
 								<FontAwesomeIcon
@@ -94,6 +111,33 @@ const Cv = () => {
 					</div>
 				</div>
 			</div>
+			{isModalOpen && (
+				<div className="modal-overlay" onClick={handleCloseModal}>
+					<div
+						className={`modal-content ${
+							isClosing ? "modal-exit" : "modal-enter"
+						}`}
+						onClick={(e) => e.stopPropagation()}
+					>
+						<div className="modal-header">
+							<Tippy content="Cerrar pestaña" placement="top">
+								<button
+									className="close-button"
+									onClick={handleCloseModal}
+								>
+									<FontAwesomeIcon
+										style={{ fontSize: "20px" }}
+										icon={faCircleXmark}
+									/>
+								</button>
+							</Tippy>
+						</div>
+						<div className="modal-body">
+							<embed src={MyCv} type="application/pdf" />
+						</div>
+					</div>
+				</div>
+			)}
 		</React.Fragment>
 	);
 };

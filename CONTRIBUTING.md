@@ -1,43 +1,43 @@
-Contributing Guidelines
+Directrices de contribución
 
-Thank you for your interest in contributing to our project! We welcome contributions from everyone. By participating in this project, you agree to abide by the following guidelines:
+¡Gracias por su interés en contribuir en el proyecto! Todas las contribuciones son bienvenidas. Al participar en este proyecto, acepta cumplir las siguientes directrices:
 
-Code of Conduct:
-Please review and adhere to our Code of Conduct, which establishes a welcoming and inclusive environment for all contributors. 
+Código de conducta:
+Por favor, revise y adhiérase a mí Código de Conducta, que establece un entorno acogedor e inclusivo para todos los contribuyentes. 
 
-Types of Contributions:
-We welcome different types of contributions, including but not limited to:
+Tipos de contribuciones:
+Acepto diferentes tipos de contribuciones, entre las que se incluyen:
 
-- Bug fixes
-- New features or enhancements
-- Documentation improvements
-- Test cases
-- Translations
-- Feedback and suggestions
+- Corrección de errores
+- Nuevas funciones o mejoras
+- Mejoras en la documentación
+- Casos de prueba
+- Traducciones
+- Comentarios y sugerencias
 
-Getting Started:
-To get started with contributing, follow these steps:
+Cómo empezar:
+Para empezar a contribuir, sigue estos pasos:
 
-1. Fork the repository and clone it to your local machine.
-2. Install the necessary dependencies.
-3. Create a new branch for your contribution.
-4. Make your changes or additions.
-5. Run tests and ensure that everything is working as expected.
-6. Commit your changes with a clear and descriptive commit message.
-7. Push your changes to your forked repository.
-8. Submit a pull request (PR) to our main repository, clearly explaining the purpose and details of your contribution.
+1. Clona el repositorio en tu máquina local.
+2. Instala las dependencias necesarias.
+3. Crea una nueva rama para tu contribución.
+4. Realiza tus cambios o añadidos.
+5. Ejecuta las pruebas y asegúrate de que todo funciona como se espera.
+6. Confirma tus cambios con un mensaje de confirmación claro y descriptivo.
+7. Empuje sus cambios a su repositorio bifurcado.
+8. Envíe un pull request (PR) a mi repositorio principal, explicando claramente el propósito y los detalles de su contribución.
 
-Code Style and Standards:
-Please ensure that your code adheres to our coding style and standards. Review our style guide and follow the established conventions for formatting, naming, and documentation.
+Estilo y normas de codificación:
+Por favor, asegúrese de que su código se adhiere a mí estilo y normas de codificación. Revise mí guía de estilo y siga las convenciones establecidas para el formato, la nomenclatura y la documentación.
 
-Documentation:
-Update relevant documentation to reflect your changes. This includes README files, code comments, and any other supporting documentation.
+Documentación:
+Actualice la documentación pertinente para reflejar sus cambios. Esto incluye archivos README, comentarios de código y cualquier otra documentación de apoyo.
 
-Issue Reporting:
-If you encounter any bugs or issues, please submit a detailed bug report, including steps to reproduce and any relevant information. You can also search for existing issues and contribute to their resolution.
+Notificación de problemas:
+Si encuentra algún error o problema, envíe un informe de errores detallado, incluyendo los pasos para reproducirlo y cualquier información relevante. También puede buscar problemas existentes y contribuir a su resolución.
 
-Community Feedback:
-We value feedback and suggestions from the community. Join our discussion forums, participate in conversations, and share your ideas for improving the project.
+Comentarios de la comunidad:
+Valoramos los comentarios y sugerencias de la comunidad. Participa y comparté tus ideas para mejorar el proyecto.
 
-Thank you for your contributions and for helping make this project better!
+Gracias por tus contribuciones y por ayudarme a mejorar este proyecto.
 
