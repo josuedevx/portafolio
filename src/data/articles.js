@@ -1024,7 +1024,7 @@ function article_2() {
 
 function article_1() {
 	return {
-		date: "07 marzo 2025",
+		date: "15 abril 2025",
 		title: "Tutorial:  ¿Quieres aprender Backend Development como un PRO?",
 		description:
 			"GUÁRDALO AHORA si estás construyendo tu camino como desarrollador backend. ¡Este mapa mental te lo deja clarito!",
