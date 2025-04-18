@@ -79,8 +79,7 @@ function article_9() {
 						en el desarrollo de aplicaciones modernas sin
 						comprometer la flexibilidad y el control.
 					</div>
-					<br>
-					</br>
+					<br></br>
 					<img
 						src="https://www.tenable.com/sites/default/files/images/articles/ConfusedFunction%20%20Privilege%20Escalation%20Vulnerability%20Impacting%20GCP.gif"
 						alt="random"
@@ -1043,9 +1042,21 @@ function article_1() {
 				height: auto;
 			}
 			
-			.hashtags {
-				font-weight: bold;
+			.hashtags-container {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+				margin: 25px 0;
+				justify-content: center;
+			}
+
+			.hashtag {
+				background: #eef2ff;
 				color: #1D79D7;
+				padding: 5px 12px;
+				border-radius: 20px;
+				font-weight: 600;
+				font-size: 0.9em;
 			}
 		`,
 		body: (
@@ -1139,12 +1150,22 @@ function article_1() {
 						className="randImage"
 					/>
 
-					<p className="hashtags">
-						#BackendDevelopment #WebDevelopment #FullStack #DevOps
-						#APIs #Docker #Microservices #BackendEngineer
-						#BackendRoadmap #Database #CloudComputing #Nodejs
-						#Python #SQL #Infrastructure
-					</p>
+					<div className="hashtags-container">
+						<span className="hashtag">#BackendDevelopment</span>
+						<span className="hashtag">#WebDevelopment</span>
+						<span className="hashtag">#DevOps</span>
+						<span className="hashtag">#FullStack</span>
+						<span className="hashtag">#Microservices</span>
+						<span className="hashtag">#Docker</span>
+						<span className="hashtag">#APIs</span>
+						<span className="hashtag">#BackendEngineer</span>
+						<span className="hashtag">#BackendRoadmap</span>
+						<span className="hashtag">#CloudComputing</span>
+						<span className="hashtag">#Python</span>
+						<span className="hashtag">#Nodejs</span>
+						<span className="hashtag">#Infrastructure</span>
+						<span className="hashtag">#Database</span>
+					</div>
 
 					<p>
 						<strong>💻 Fuente original de la idea:</strong>{" "}
@@ -1163,7 +1184,392 @@ function article_1() {
 	};
 }
 
+function article_0() {
+	return {
+		date: "18 abril 2025",
+		title: "Generador Avanzado de Keywords para Google Ads con IA y PHP",
+		description:
+			"Implementa un sistema inteligente para generación de palabras clave con métricas SEO usando la API de Google Ads y Gemini AI.",
+		keywords: [
+			"Google Ads",
+			"PHP",
+			"SEO",
+			"Inteligencia Artificial",
+			"Gemini AI",
+			"API Integration",
+			"Keyword Research",
+		],
+		style: `
+			@import "../data/styles.css";
+
+			.article-content {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.randImage {
+				align-self: center;
+				outline: 2px solid var(--link-color) !important;
+				max-width: 100%;
+				height: auto;
+				border-radius: 4px 4px 4px 4px;
+			}
+			
+			.hashtags-container {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+				margin: 25px 0;
+				justify-content: center;
+			}
+
+			.hashtag {
+				background: #eef2ff;
+				color: #1D79D7;
+				padding: 5px 12px;
+				border-radius: 20px;
+				font-weight: 600;
+				font-size: 0.9em;
+			}
+
+			.feature-box {
+				background: #f8f9fa;
+				border-radius: 8px;
+				padding: 20px;
+				margin: 15px 0;
+				border-left: 4px solid var(--link-color);
+			}
+
+			.code-block {
+				background: #2d2d2d;
+				color: #f8f8f2;
+				padding: 15px;
+				border-radius: 5px;
+				font-family: monospace;
+				overflow-x: auto;
+				margin: 15px 0;
+			}
+
+			.warning-box {
+				background: #fff8e6;
+				border-left: 4px solid #ffc107;
+				padding: 15px;
+				margin: 20px 0;
+				border-radius: 4px 4px 4px 4px;
+			}
+
+		
+			.permission-list {
+				columns: 2;
+				margin: 15px 0;
+			}
+			@media (max-width: 768px) {
+				.permission-list {
+					columns: 1;
+				}
+			}
+				@media (max-width: 768px) {
+				.article-content {
+					padding: 0 15px;
+				}
+				
+				.feature-box, .warning-box {
+					padding: 18px;
+				}
+			}
+		`,
+		body: (
+			<React.Fragment>
+				<div className="article-content">
+					<div className="paragraph">
+						Descubre cómo crear un generador avanzado de palabras
+						clave para Google Ads que combina scraping, inteligencia
+						artificial y análisis SEO profesional. 🚀
+					</div>
+
+					<div className="feature-box">
+						<h3>🌟 Características principales</h3>
+						<ul>
+							<li>
+								✅ Extracción automática de metatags y contenido
+								visible desde cualquier URL
+							</li>
+							<li>
+								✅ Generación inteligente de keywords usando
+								Google Gemini AI
+							</li>
+							<li>
+								✅ Análisis semántico comparativo frente a la
+								competencia
+							</li>
+							<li>
+								✅ Conexión directa con el Keyword Planner de
+								Google Ads
+							</li>
+							<li>
+								✅ Exportación en múltiples formatos (JSON, CSV)
+							</li>
+						</ul>
+					</div>
+					
+					<div className="feature-box">
+						<h3>
+							📋 Requisitos del sistema y proceso de
+							Implementación
+						</h3>
+						<ul>
+							<li>PHP 8.2 o superior</li>
+							<li>Composer para gestión de dependencias</li>
+							<li>Cuenta de Google Ads con acceso API</li>
+							<li>API Key para Google Gemini</li>
+							<li>
+								Token de desarrollador aprobado para Google Ads
+							</li>
+						</ul>
+					</div>
+
+					<div className="feature-box">
+						<h3>1. Preparación del Entorno</h3>
+						<ul>
+							<li>
+								Configura un proyecto en Google Cloud Console
+							</li>
+							<li>
+								Habilita las APIs requeridas en el panel de
+								administración
+							</li>
+							<li>
+								Establece pantallas de consentimiento OAuth
+								válidas
+							</li>
+						</ul>
+					</div>
+
+					<div className="feature-box">
+						<h3>2. Instalar dependencias</h3>
+						<p>
+							Primero asegúrate de tener{" "}
+							<a href="https://getcomposer.org" target="_blank">
+								Composer
+							</a>{" "}
+							instalado, luego ejecuta:
+						</p>
+						<div className="code-block">composer install</div>
+					</div>
+
+					<div className="feature-box">
+						<h3>3. Autenticación OAuth 2.0</h3>
+						<p>El sistema utiliza el flujo estándar de Google:</p>
+						<ol>
+							<li>Inicia el proceso desde tu aplicación</li>
+							<li>Autoriza los scopes requeridos</li>
+							<li>Captura el código de autorización</li>
+							<li>Intercámbialo por tokens de acceso/refresh</li>
+						</ol>
+					</div>
+
+					<div className="warning-box">
+						<h4>⚠️ Buenas Prácticas de Tokens</h4>
+						<p>
+							Almacena los tokens refresh en un servicio seguro
+							como:
+						</p>
+						<ul>
+							<li>AWS Secrets Manager</li>
+							<li>Google Cloud Secret Manager</li>
+							<li>Azure Key Vault</li>
+							<li>
+								Soluciones cifradas locales (solo desarrollo)
+							</li>
+						</ul>
+					</div>
+
+					<div className="feature-box">
+						<h3>5. Configurar credenciales de Google Ads</h3>
+						<ul>
+							<li>Establece los IDs de cliente autorizados</li>
+							<li>Configura los límites de cuota adecuados</li>
+							<li>Define las políticas de acceso por roles</li>
+						</ul>
+						<p>
+							Crea un archivo <code>google_ads_php.ini</code> con:
+						</p>
+
+						<div className="code-block">
+							[GOOGLE_ADS]
+							<br />
+							developerToken = "TU_TOKEN_DE_DESARROLLADOR"
+							<br />
+							<br />
+							[OAUTH2]
+							<br />
+							clientId = "TU_CLIENT_ID"
+							<br />
+							clientSecret = "TU_CLIENT_SECRET"
+							<br />
+							refreshToken = "TU_REFRESH_TOKEN"
+							<br />
+							<br />
+							[CONNECTION]
+							<br />
+							customerId = "CUSTOMER_ID"
+							<br />
+							languageId = "LANGUAGE_ID"
+							<br />
+							locationId = "LOCATION_ID"
+						</div>
+					</div>
+
+					<div className="feature-box">
+						<h3>6. Configurar Google Gemini</h3>
+						<p>
+							Crea un archivo <code>.env</code> con:
+						</p>
+						<div className="code-block">
+							GOOGLE_API_KEY=''
+							<br />
+							GOOGLE_CLIENT_ID=''
+							<br />
+							GOOGLE_CLIENT_SECRET=''
+						</div>
+					</div>
+
+					<div className="feature-box">
+						<h3>7. Puesta en Producción</h3>
+						<p>Una vez completada la configuración:</p>
+						<ul>
+							<li>
+								Verifica los permisos de todas las cuentas
+								vinculadas
+							</li>
+							<li>Prueba el flujo completo en modo sandbox</li>
+							<li>Implementa monitoreo para las llamadas API</li>
+							<li>Establece alertas por uso anómalo</li>
+						</ul>
+					</div>
+
+					<div className="feature-box">
+						<h3>📊 Flujo de trabajo del sistema</h3>
+						<ol>
+							<li>Recibe una URL objetivo como entrada</li>
+							<li>
+								Realiza scraping para extraer metadatos y
+								contenido
+							</li>
+							<li>
+								Envía la información a Gemini AI para generación
+								de keywords
+							</li>
+							<li>
+								Conecta con Google Ads Keyword Planner para
+								métricas
+							</li>
+							<li>Compara con competidores (opcional)</li>
+							<li>Genera reportes completos</li>
+						</ol>
+					</div>
+
+					<div className="warning-box">
+						<h3>🔒 Consideraciones Finales de Seguridad</h3>
+						<ul>
+							<li>Audita regularmente los accesos a la API</li>
+							<li>
+								Implementa IP restrictions en la configuración
+								OAuth
+							</li>
+							<li>
+								Usa cuentas de servicio para acceso programático
+							</li>
+							<li>
+								Considera implementar un proxy de API para mayor
+								seguridad
+							</li>
+						</ul>
+					</div>
+
+					<div className="warning-box">
+						<h3>⚠️ Requisitos Clave de Seguridad</h3>
+						<ul>
+							<li>
+								Nunca compartas tus tokens de acceso en
+								repositorios públicos
+							</li>
+							<li>
+								Utiliza siempre conexiones HTTPS para todas las
+								llamadas API
+							</li>
+							<li>
+								Restringe las IPs autorizadas en Google Cloud
+								Console
+							</li>
+							<li>
+								Implementa rotación periódica de credenciales
+							</li>
+						</ul>
+					</div>
+
+					<div className="warning-box">
+						<h3>💡 Notas importantes</h3>
+						<ul>
+							<li>
+								🔐 Asegúrate de tener habilitadas las APIs
+								necesarias en Google Cloud Console
+							</li>
+							<li>
+								🆓 Puedes usar customerId de cuentas de prueba
+								para desarrollo
+							</li>
+							<li>
+								🌍 El sistema está preparado para multi-idioma y
+								diferentes regiones
+							</li>
+						</ul>
+					</div>
+
+					<br />
+
+					<img
+						src="https://luciayelseo.com/wp-content/uploads/2020/12/tipos-de-keywords-seo-955x675.png"
+						alt="Ejemplo de investigación de keywords"
+						className="randImage"
+					/>
+
+					<div className="hashtags-container">
+						<span className="hashtag">#GoogleAdsAPI</span>
+						<span className="hashtag">#SEOAutomation</span>
+						<span className="hashtag">#PHPDevelopment</span>
+						<span className="hashtag">#AIMarketing</span>
+						<span className="hashtag">#KeywordResearch</span>
+						<span className="hashtag">#InteligenciaArtificial</span>
+						<span className="hashtag">#GeminiAI</span>
+						<span className="hashtag">#DesarrolloWeb</span>
+					</div>
+
+					<div className="feature-box">
+						<p>
+							<strong>
+								💻 Proyecto desarrollado con ❤️ por:
+							</strong>{" "}
+							<a
+								href="https://github.com/josuedevx"
+								target="_blank"
+							>
+								Josué Álvarez
+							</a>{" "}
+							<br />
+							Especialista en integraciones API y automatización
+							de SEO
+						</p>
+					</div>
+				</div>
+			</React.Fragment>
+		),
+	};
+}
+
 const myArticles = [
+	article_0,
 	article_1,
 	article_2,
 	article_3,

@@ -252,3 +252,12 @@ body.dark-mode .modal-header {
 body.dark-mode .close-button {
 	color: var(--white-color);
 }
+
+body.dark-mode .code-block {
+	background: var(--octonary-color);
+}
+
+body.dark-mode .warning-box,
+.feature-box {
+	color: var(--primary-color);
+}
