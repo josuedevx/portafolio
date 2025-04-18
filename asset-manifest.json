@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.b182a315.css",
-    "main.js": "/portafolio/static/js/main.a106df7e.js",
+    "main.js": "/portafolio/static/js/main.9aa73a09.js",
     "static/js/787.512dd3f2.chunk.js": "/portafolio/static/js/787.512dd3f2.chunk.js",
     "static/media/CVAARJ010123LM0.pdf": "/portafolio/static/media/CVAARJ010123LM0.40836719be350c71c590.pdf",
     "static/media/mexico-flag.png": "/portafolio/static/media/mexico-flag.87c2a24b52dc3fd28107.png",
@@ -16,11 +16,11 @@
     "static/media/slick.woff": "/portafolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portafolio/index.html",
     "main.b182a315.css.map": "/portafolio/static/css/main.b182a315.css.map",
-    "main.a106df7e.js.map": "/portafolio/static/js/main.a106df7e.js.map",
+    "main.9aa73a09.js.map": "/portafolio/static/js/main.9aa73a09.js.map",
     "787.512dd3f2.chunk.js.map": "/portafolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b182a315.css",
-    "static/js/main.a106df7e.js"
+    "static/js/main.9aa73a09.js"
   ]
 }
