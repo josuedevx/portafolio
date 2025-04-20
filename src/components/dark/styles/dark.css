@@ -261,3 +261,11 @@ body.dark-mode .warning-box,
 .feature-box {
 	color: var(--primary-color);
 }
+
+body.dark-mode .feature-box {
+	background: var(--quinary-color);
+	color: var(--quaternary-color);
+}
+body.dark-mode .about-modal-content {
+	background: var(--primary-color);
+}

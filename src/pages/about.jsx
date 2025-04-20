@@ -1,22 +1,42 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faCode,
+	faCircleXmark,
+} from "@fortawesome/free-solid-svg-icons";
 
+import Tippy from "@tippyjs/react";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import DarkMode from "../components/dark/dark";
-import Languaje from "../components/common/languaje";
 import Works from "../components/homepage/works";
+import Skills from "../components/about/skills";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import imagemINE from "../assets/ghibli.jpg";
 
 import "./styles/about.css";
+import "tippy.js/dist/tippy.css";
 
 const About = () => {
-	const { t } = useTranslation();
+	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [isClosing, setIsClosing] = useState(false);
+
+	const handleOpenModal = () => {
+		setIsModalOpen(true);
+		setIsClosing(false);
+	};
+
+	const handleCloseModal = () => {
+		setIsClosing(true);
+		setTimeout(() => {
+			setIsModalOpen(false);
+			setIsClosing(false);
+		}, 300);
+	};
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -34,7 +54,6 @@ const About = () => {
 					content={currentSEO.keywords.join(", ")}
 				/>
 			</Helmet>
-
 			<div className="page-content">
 				<NavBar active="about" />
 				{/* <Languaje /> */}
@@ -58,6 +77,25 @@ const About = () => {
 								</div>
 								<div className="homepage-works">
 									<Works />
+								</div>
+								<div className="about-skills-container">
+									<Tippy
+										content="Haz clic para ver mis skills 💡"
+										placement="bottom"
+									>
+										<button
+											className="show-skills-button"
+											onClick={handleOpenModal}
+											aria-label="Abrir lista de habilidades"
+										>
+											{" "}
+											Habilidades{" "}
+											<FontAwesomeIcon
+												style={{ fontSize: "15px" }}
+												icon={faCode}
+											/>
+										</button>
+									</Tippy>
 								</div>
 							</div>
 
@@ -88,6 +126,37 @@ const About = () => {
 					</div>
 				</div>
 			</div>
+			{isModalOpen && (
+				<div className="about-modal-overlay" onClick={handleCloseModal}>
+					<div
+						className={`about-modal-content ${
+							isClosing ? "about-modal-exit" : "about-modal-enter"
+						}`}
+						onClick={(e) => e.stopPropagation()}
+					>
+						<div className="about-modal-header">
+							<Tippy content="Cerrar pestaña" placement="top">
+								<button
+									className="about-close-button"
+									onClick={handleCloseModal}
+								>
+									<FontAwesomeIcon
+										style={{ fontSize: "20px" }}
+										icon={faCircleXmark}
+									/>
+								</button>
+							</Tippy>
+						</div>
+						<div className="about-modal-body">
+							<div className="skills-container">
+								<div className="contact-skills">
+									<Skills />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			)}
 		</React.Fragment>
 	);
 };
