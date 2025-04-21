@@ -48,6 +48,7 @@
 
 .project-logo {
 	width: 30px;
+	
 }
 
 .project-logo img {
@@ -94,4 +95,26 @@
 		display: block;
 		max-height: 100px;
 	}
+}
+
+.project-status {
+	background: rgba(108, 99, 255, 0.08); 
+    color: var(--link-color);
+    margin-top: 10px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.project-status-terminado {
+	background: rgba(255, 94, 94, 0.08);
+    color: #ff5e5e;
+    margin-top: 10px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-align: center;
 }

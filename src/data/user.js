@@ -5,7 +5,7 @@ const INFO = {
 		title: "Portafolio",
 		name: "Josue Alvarez Rodriguez",
 		email: "arj1931126@gmail.com",
-		logo: "https://github.com/josuedevx/portafolio/blob/main/public/logo.png"
+		logo: "https://github.com/josuedevx/portafolio/blob/main/public/logo.png",
 	},
 
 	socials: {
@@ -49,7 +49,8 @@ const INFO = {
 
 	curriculum: {
 		title: "Mi Camino en el Desarrollo 📂",
-		description: "¡Hola! 👋 Soy Josue Alvarez Rodriguez, un Ingeniero en Sistemas Computacionales apasionado por el desarrollo de software, la integración de tecnologías y el liderazgo de proyectos innovadores. Si quieres conocer más sobre mi trayectoria, habilidades y logros que he alcanzado, ¡te invito a descargar mi currículum actualizado! Estoy siempre abierto a nuevas oportunidades, colaboraciones y desafíos que me permitan seguir creciendo profesionalmente. ¡No dudes en contactarme si quieres conectar o trabajar juntos en algo increíble! 🚀",
+		description:
+			"¡Hola! 👋 Soy Josue Alvarez Rodriguez, un Ingeniero en Sistemas Computacionales apasionado por el desarrollo de software, la integración de tecnologías y el liderazgo de proyectos innovadores. Si quieres conocer más sobre mi trayectoria, habilidades y logros que he alcanzado, ¡te invito a descargar mi currículum actualizado! Estoy siempre abierto a nuevas oportunidades, colaboraciones y desafíos que me permitan seguir creciendo profesionalmente. ¡No dudes en contactarme si quieres conectar o trabajar juntos en algo increíble! 🚀",
 	},
 
 	projects: [
@@ -78,10 +79,11 @@ const INFO = {
 				{
 					name: "Composer",
 					logo: "https://upload.wikimedia.org/wikipedia/commons/2/26/Logo-composer-transparent.png",
-				}
+				},
 			],
 			linkText: text,
 			link: formData,
+			status: "En desarrollo",
 		},
 		{
 			title: "Visor de Documentos en Línea",
@@ -120,6 +122,7 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
+			status: "Terminado",
 		},
 		{
 			title: "Plataforma de Análisis de Datos",
@@ -154,6 +157,7 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
+			status: "Terminado",
 		},
 		{
 			title: "Gestión de Personal",
@@ -180,6 +184,7 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
+			status: "Terminado",
 		},
 		{
 			title: "App de Control Financiero",
@@ -210,6 +215,7 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
+			status: "Terminado",
 		},
 		{
 			title: "Embebido de Dashboards Online",
@@ -232,6 +238,7 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
+			status: "Terminado",
 		},
 		{
 			title: "Portal de Aprendizaje Online",
@@ -262,6 +269,34 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
+			status: "Terminado",
+		},
+		{
+			title: "Checador de Control de Asistencias",
+			description:
+				"Desarrollé un sistema de control de asistencias que permite a los empleados registrar su entrada y salida mediante un código QR único. La aplicación genera reportes semanales y mensuales, facilitando la gestión del tiempo y la asistencia del personal.",
+			logo: "https://www.pointmeup.com/hubfs/Modulos%20POINT_01.png",
+			technologies: [
+				{
+					name: "Node.js",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+				},
+				{
+					name: "React",
+					logo: "https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
+				},
+				{
+					name: "MySQL",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919836.png",
+				},
+				{
+					name: "Chakra UI",
+					logo: "https://img.icons8.com/?size=512&id=r9QJ0VFFrn7T&format=png",
+				},
+			],
+			linkText: text,
+			link: formData,
+			status: "En desarrollo",
 		},
 	],
 

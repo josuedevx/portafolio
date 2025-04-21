@@ -9,7 +9,7 @@ import "./styles/project.css";
 import INFO from "../../data/user";
 
 const Project = (props) => {
-	const { logo, title, description, linkText, link } = props;
+	const { logo, title, description, linkText, link, status } = props;
 
 	return (
 		<React.Fragment>
@@ -20,6 +20,15 @@ const Project = (props) => {
 							<div className="project-content">
 								<div className="project-logo">
 									<img src={logo} alt="logo" />
+								</div>
+								<div
+									className={
+										status === "Terminado"
+											? "project-status"
+											: "project-status-terminado"
+									}
+								>
+									{status}
 								</div>
 								<div className="project-title">{title}</div>
 								<div className="project-description">

@@ -57,16 +57,16 @@ const ReadProject = () => {
 
 					<div className="read-project-container">
 						<div className="read-project-back">
-						<Tippy
+							<Tippy
 								content="Regresar a proyectos"
 								placement="bottom"
 							>
-							<img
-								src="https://static.thenounproject.com/png/1410611-200.png"
-								alt="back"
-								className="read-project-back-button"
-								onClick={() => navigate("/projects")}
-							/>
+								<img
+									src="https://static.thenounproject.com/png/1410611-200.png"
+									alt="back"
+									className="read-project-back-button"
+									onClick={() => navigate("/projects")}
+								/>
 							</Tippy>
 						</div>
 
@@ -76,6 +76,16 @@ const ReadProject = () => {
 							</div>
 							<div className="title read-project-title">
 								Proyecto {slug}: {project.title}
+							</div>
+
+							<div
+								className={
+									project.status === "Terminado"
+										? "project-status"
+										: "project-status-terminado"
+								}
+							>
+								{project.status}
 							</div>
 
 							<div className="read-project-body">
