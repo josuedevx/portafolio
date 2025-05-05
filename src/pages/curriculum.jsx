@@ -34,6 +34,11 @@ const Cv = () => {
 		}, 300);
 	};
 
+	const handleDownloadCV = () => {
+		const cvUrl = MyCv;
+		window.open(cvUrl, "_blank");
+	};
+
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -109,6 +114,17 @@ const Cv = () => {
 						onClick={(e) => e.stopPropagation()}
 					>
 						<div className="modal-header">
+							<Tippy content="Descargar/Abrir" placement="top">
+								<button
+									className="close-button"
+									onClick={handleDownloadCV}
+								>
+									<FontAwesomeIcon
+										style={{ fontSize: "20px" }}
+										icon={faDownload}
+									/>
+								</button>
+							</Tippy>
 							<Tippy content="Cerrar pestaña" placement="top">
 								<button
 									className="close-button"
