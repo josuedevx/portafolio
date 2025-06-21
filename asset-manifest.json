@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.e4c68f74.css",
-    "main.js": "/portafolio/static/js/main.3aced8d1.js",
+    "main.css": "/portafolio/static/css/main.50b39d7a.css",
+    "main.js": "/portafolio/static/js/main.cc484923.js",
     "static/js/787.512dd3f2.chunk.js": "/portafolio/static/js/787.512dd3f2.chunk.js",
-    "static/media/CVAARJ010123LM0.pdf": "/portafolio/static/media/CVAARJ010123LM0.40836719be350c71c590.pdf",
+    "static/media/CVAARJ010123LM0.pdf": "/portafolio/static/media/CVAARJ010123LM0.886adb5e6a1f8af7bdb7.pdf",
     "static/media/mexico-flag.png": "/portafolio/static/media/mexico-flag.87c2a24b52dc3fd28107.png",
     "static/media/ghibli.jpg": "/portafolio/static/media/ghibli.6660d1a22e868659905c.jpg",
     "static/media/yo3.jpg": "/portafolio/static/media/yo3.c43d20306c6e9a837758.jpg",
@@ -15,12 +15,13 @@
     "static/media/slick.ttf": "/portafolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portafolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portafolio/index.html",
-    "main.e4c68f74.css.map": "/portafolio/static/css/main.e4c68f74.css.map",
-    "main.3aced8d1.js.map": "/portafolio/static/js/main.3aced8d1.js.map",
+    "static/media/develop.svg": "/portafolio/static/media/develop.db3a80a6e5b49dbed9545b732c513486.svg",
+    "main.50b39d7a.css.map": "/portafolio/static/css/main.50b39d7a.css.map",
+    "main.cc484923.js.map": "/portafolio/static/js/main.cc484923.js.map",
     "787.512dd3f2.chunk.js.map": "/portafolio/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4c68f74.css",
-    "static/js/main.3aced8d1.js"
+    "static/css/main.50b39d7a.css",
+    "static/js/main.cc484923.js"
   ]
 }
