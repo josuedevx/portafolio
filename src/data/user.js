@@ -4,7 +4,7 @@ const INFO = {
 	main: {
 		title: "Portafolio",
 		name: "Josue Alvarez Rodriguez",
-		email: "arj1931126@gmail.com",
+		email: "josuealvro@gmail.com",
 		logo: "https://github.com/josuedevx/portafolio/blob/main/public/logo.png",
 	},
 
