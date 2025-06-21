@@ -55,7 +55,42 @@ const INFO = {
 
 	projects: [
 		{
-			title: "SEO Tool Keywords Generator",
+			title: "eCommerce Online",
+			description:
+				"Plataforma de eCommerce con integración de pagos via PayPal, backend en PHP 8, y frontend dinámico desarrollado con JavaScript, HTML5 y CSS. Solución completa desde carrito de compras hasta procesamiento de transacciones.",
+			logo: "https://png.pngtree.com/png-clipart/20230509/original/pngtree-keyword-vector-png-image_9153596.png",
+			technologies: [
+				{
+					name: "PayPal",
+					logo: "https://upload.wikimedia.org/wikipedia/commons/b/b7/PayPal_Logo_Icon_2014.svg",
+				},
+				{
+					name: "JavaScript",
+					logo: "https://img.icons8.com/arcade/512/javascript.png",
+				},
+				{
+					name: "PHP 8",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919830.png",
+				},
+				{
+					name: "HTML5",
+					logo: "https://static-00.iconduck.com/assets.00/html5-icon-2018x2048-st7q7lm6.png",
+				},
+				{
+					name: "CSS",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919826.png",
+				},
+				{
+					name: "MySQL",
+					logo: "https://cdn-icons-png.flaticon.com/512/919/919836.png",
+				},
+			],
+			linkText: text,
+			link: formData,
+			status: "En desarrollo",
+		},
+		{
+			title: "Keywords Generator",
 			description:
 				"Desarrollé una herramienta automatizada de generación de keywords SEO que mediante scraping extrae metadatos y contenido de URLs para luego procesarlos con Google Gemini IA optimizando su semántica e integrando la API de Google Keyword Planner que analiza volumen de búsqueda CPC y competencia generando keywords altamente efectivas con un 40% más de rendimiento y reduciendo un 70% el tiempo de investigación tradicional gracias a su arquitectura en PHP 8 y flujo automatizado.",
 			logo: "https://png.pngtree.com/png-clipart/20230509/original/pngtree-keyword-vector-png-image_9153596.png",
@@ -296,7 +331,7 @@ const INFO = {
 			],
 			linkText: text,
 			link: formData,
-			status: "En desarrollo",
+			status: "Terminado",
 		},
 	],
 

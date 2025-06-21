@@ -194,11 +194,13 @@ body.dark-mode .contact-subtitle a:hover {
 	color: var(--white-color);
 }
 
-body.dark-mode .read-article-body,
-.read-project-body {
+body.dark-mode .read-article-body {
 	color: var(--tertiary-color) !important;
 }
 
+body.dark-mode .read-project-body {
+	color: var(--tertiary-color) !important;
+}
 body.dark-mode .read-article-body a {
 	color: var(--link-color);
 }
